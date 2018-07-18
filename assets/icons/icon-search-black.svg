@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1.00905908e-15 19.5516218 1.00905908e-15 0 19.5526909 0 19.5526909 19.5516218"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-search">
+            <g id="Group-3">
+                <g id="Fill-1-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <path d="M9.77683636,16.6940945 C5.96170909,16.6940945 2.85741818,13.5908945 2.85741818,9.77576727 C2.85741818,5.96042182 5.96170909,2.85744 9.77683636,2.85744 C13.5921818,2.85744 16.6951636,5.96042182 16.6951636,9.77576727 C16.6951636,13.5908945 13.5921818,16.6940945 9.77683636,16.6940945 M9.77683636,-8.72727273e-05 C4.37749091,-8.72727273e-05 -0.000109090909,4.37620364 -0.000109090909,9.77576727 C-0.000109090909,15.1751127 4.37749091,19.5516218 9.77683636,19.5516218 C15.1764,19.5516218 19.5526909,15.1751127 19.5526909,9.77576727 C19.5526909,4.37620364 15.1764,-8.72727273e-05 9.77683636,-8.72727273e-05" id="Fill-1" fill="#4C4A4B" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+            <polygon id="Fill-4" fill="#4C4A4B" fill-rule="nonzero" points="14.8380655 16.85688 16.8579927 14.8380436 23.9999564 21.9797891 21.9798109 23.9999345"></polygon>
+        </g>
+    </g>
+</svg>

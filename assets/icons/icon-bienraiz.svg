@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="27px" viewBox="0 0 30 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>i_mobile-home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="final-WS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0024_" transform="translate(-23.000000, -511.000000)" fill-rule="nonzero">
+            <g id="i_mobile-home" transform="translate(23.000000, 511.000000)">
+                <polyline id="Shape" fill="#0061A0" points="0.353780488 23.0893902 0.353780488 5.78231707 29.6462195 5.78231707 29.6462195 23.0893902"></polyline>
+                <rect id="Rectangle-path" fill="#0090DA" x="0.353780488" y="2.53902439" width="29.2928049" height="3.24329268"></rect>
+                <rect id="Rectangle-path" fill="#0090DA" x="0.353780488" y="23.072561" width="29.2928049" height="3.26634146"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" x="5.18121951" y="9.78804878" width="7.56621951" height="13.3017073"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" x="17.0392683" y="9.78804878" width="7.92987805" height="5.09012195"></rect>
+                <polygon id="Shape" fill="#0090DA" points="15.9391463 0.00256097561 29.6462195 2.53902439 15.9391463 2.53902439 0.353780488 2.53902439"></polygon>
+                <rect id="Rectangle-path" fill="#0061A0" x="5.18121951" y="23.0893902" width="7.56621951" height="3.2495122"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

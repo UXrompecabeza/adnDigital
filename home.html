@@ -1,0 +1,526 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/libs/owl.carousel.css"/>
+    <link rel="stylesheet" href="css/libs/selectize.css"/>
+    <link rel="stylesheet" href="css/libs/progress-tracker.css"/>
+    <link rel="stylesheet" href="css/libs/tooltips.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/favicon/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/favicon/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/favicon/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/favicon/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/favicon/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/favicon/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/favicon/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/favicon/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="assets/icons/favicon/manifest.json"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <title>Metlife ADN</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="hide-lg full-box header-hide"> 
+        <header>
+          <div class="box-lupa hide-lg"><img src="assets/icons/icon-search-black.svg" alt=""/></div>
+          <div class="box-adn">
+            <p>ADN</p>
+          </div>
+          <div class="box-user">
+            <p>RODRIGO  SANTIESTEBAN</p>
+          </div>
+        </header>
+      </div>
+      <div class="wide-container">
+        <div class="text-welcome hide-sm">
+          <h2>Bienvenido a ADN</h2>
+          <p class="titulo-secundario">Una asesoría acorde a las necesidades de cada uno de tus clientes</p>
+        </div>
+      </div>
+      <div class="home-container">
+        <div class="row">
+          <div class="col-lg-3 hide-sm hide-md no-padding"><img src="assets/imgs/ejecutivo.png" alt=""/></div>
+          <div class="col-12 col-md-12 col-lg-9" id="home-info">
+            <div class="row">
+              <div class="col-12 col-md-6 center welcome-info_left">
+                <p class="titulo-principal">¿Tu cliente ya existe?</p>
+                <input type="text" placeholder="Ingresa Rut" id="input-rut-home"/>
+                <div class="btn-area"><a class="btn-blue_outline" href="#" id="buscarRut">BUSCAR</a></div>
+              </div>
+              <div class="col-12 col-md-6 center welcome-info">
+                <p class="titulo-principal">¿Quieres crear un ADN?</p>
+                <div class="btn-area"><a class="btn-blue" href="antecedentes-clientes.html">IR INICIAR</a></div>
+              </div>
+            </div>
+            <div class="container-busqueda">
+              <div class="busqueda_vacia hide">
+                <div class="row">
+                  <div class="col-12 col-md-6 center">
+                    <p>Opps! </p>
+                    <p>Este prospecto no tiene ADN registrado</p>
+                  </div>
+                </div>
+              </div>
+              <div class="busqueda_resultados hide">
+                <h2 class="title_search hide-sm">Resultado de Búsqueda</h2>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                        <div class="user-info">
+                          <h5>12.345.678-9</h5>
+                          <h6>Isabel Margarita Errázuriz Peña</h6>
+                        </div>
+                        <div class="grid-container hide-md hide-lg">
+                          <div class="grid-col">
+                            <h3>Asesor:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Pedro López Rivera</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>GA:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Patricio Fernández </h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3 class="italic">Cliente:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4 class="italic">No es de tu cartera </h4>
+                          </div>
+                        </div>
+                        <p class="hide-md hide-lg">Último contacto: 05/12/2015</p>
+                      </td>
+                      <td class="hide-sm">
+                        <div class="grid-container">
+                          <div class="grid-col">
+                            <h3>Asesor:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Pedro López Rivera</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>GA:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Patricio Fernández </h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3 class="italic">Cliente:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4 class="italic">No es de tu cartera </h4>
+                          </div>
+                        </div>
+                        <p>Último contacto: 05/12/2015</p>
+                      </td>
+                      <td class="hide-sm"></td>
+                      <td><img class="icon-search" src="assets/icons/icon-chevron.svg" id="cliente1"/></td>
+                    </tr>
+                    <tr>
+                      <td><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                        <div class="user-info">
+                          <h5>12.345.678-9</h5>
+                          <h6>Carlos Errázuriz Peña </h6>
+                        </div>
+                        <div class="grid-container hide-md hide-lg">
+                          <div class="grid-col">
+                            <h3>Asesor:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Rodrigo Santiesteban</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>GA:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Patricio Fernández </h4>
+                          </div>
+                        </div>
+                        <p class="hide-md hide-lg">Último contacto: 05/12/2015</p>
+                      </td>
+                      <td class="hide-sm">
+                        <div class="grid-container">
+                          <div class="grid-col">
+                            <h3>Asesor:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Rodrigo Santiesteban</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>GA:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Patricio Fernández </h4>
+                          </div>
+                        </div>
+                        <p>Último contacto: 05/12/2015</p>
+                      </td>
+                      <td class="hide-sm"><a href="antecedentes-clientes.html"><span>Editar ADN</span><img class="icon-edit" src="assets/icons/icon-chevron.svg"/></a></td>
+                      <td> <img class="icon-search" src="assets/icons/icon-chevron.svg" id="cliente2"/></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-9 hide no-padding" id="info-cliente1">
+            <div class="info-cliente-encontrado">
+              <div class="row no-padding">
+                <div class="col-12 col-md-6 clientes">
+                  <h2 class="titulo-principal">Cliente Metlife</h2>
+                  <div class="info-cliente"><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                    <div class="user-info">
+                      <h5>12.345.678-9</h5>
+                      <h6>Isabel Margarita Errázuriz Peña</h6>
+                    </div>
+                    <div class="grid-container">
+                      <div class="grid-col">
+                        <h3>Asesor:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h4>Pedro López Rivera</h4>
+                      </div>
+                      <div class="grid-col">
+                        <h3>GA:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h4>Patricio Fernández</h4>
+                      </div>
+                      <div class="grid-col">
+                        <h3 class="italic">Cliente:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h4 class="italic">No es de tu cartera </h4>
+                      </div>
+                    </div>
+                    <p>Último contacto: 05/12/2015</p><a href="#"><span>Ver notas</span><svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="0035_" transform="translate(-30.000000, -78.000000)" fill="#1697f3" fill-rule="nonzero">
+<g id="if_new-24_103173" transform="translate(30.000000, 78.000000)">
+<path d="M24.3868182,6.34163636 C23.8349091,5.42927273 23.1541818,4.53581818 22.321,3.70736364 C21.4783636,2.87063636 20.5695455,2.18518182 19.6394545,1.63445455 L21.2727273,0 C21.2727273,0 23.6363636,0 24.8181818,1.18181818 C26,2.36363636 26,4.72727273 26,4.72727273 L24.3868182,6.34163636 Z M10.6363636,20.0909091 L5.90909091,20.0909091 L5.90909091,15.3636364 L6.47636364,14.7963636 C7.43718182,15.2513636 8.39209091,15.8907273 9.25127273,16.7487273 C10.1116364,17.6102727 10.7498182,18.5628182 11.2036364,19.5236364 L10.6363636,20.0909091 Z M23.0218182,7.70545455 L12.5674545,18.1586364 C12.0155455,17.2474545 11.3348182,16.3516364 10.5016364,15.5243636 C9.66018182,14.6864545 8.75018182,14.0021818 7.82009091,13.4514545 L18.2945455,2.97818182 C19.2553636,3.43081818 20.2102727,4.07018182 21.0694545,4.92936364 C21.931,5.78972727 22.5691818,6.74463636 23.0218182,7.70545455 Z M3.54545455,3.54545455 L3.54545455,22.4545455 L22.4545455,22.4545455 L22.4545455,14.1818182 L26,10.5914545 L26,23.6363636 C26,24.9422727 24.9410909,26 23.6363636,26 L2.36363636,26 C1.05890909,26 0,24.9422727 0,23.6363636 L0,2.36363636 C0,1.05890909 1.05890909,0 2.36363636,0 L15.3754545,0 L11.8288182,3.54545455 L3.54545455,3.54545455 Z" id="Shape"></path>
+</g>
+</g>
+</g></a></svg>
+                  </div>
+                  <div class="info-ahorro">
+                    <h2>Total de prima mensual a ahorrar</h2>
+                    <div class="box-result box-result__regular-theme box-result__regular"> 
+                      <div class="box-value">
+                        <p class="label">Total ahorro</p>
+                        <p class="valueNumber"><span class="value">UF</span> 5.454</p>
+                      </div>
+                      <div class="box-uf">
+                        <p class="ufNumber"><span class="uf">$</span> 123.890.567</p>
+                      </div>
+                    </div>
+                    <div class="box-result-details box-result-details__regular-theme">
+                      <div class="box-objetivos">
+                        <p class="txt-label">Objetivo de Ahorro Mensual</p>
+                        <p class="value">UF <span class="uf">10.5</span></p>
+                      </div>
+                      <div class="box-proyectos">
+                        <p class="txt-label"><span class="peso">$</span> 522.987</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 detalles">
+                  <div class="info-detalles">
+                    <h2>Detalle objetivos de ahorro</h2>
+                    <div class="detalle_antecedente">
+                      <div class="row">
+                        <div class="col-11 col-sm-11">
+                          <h5>Antecedentes cliente</h5>
+                        </div>
+                        <div class="col-1 col-sm-1"><a href="antecedentes-clientes.html"><svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<defs></defs>
+<g id="final-WS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="002_Dskt" transform="translate(-1153.000000, -492.000000)" fill="#FFF" fill-rule="nonzero">
+<g id="Group-2" transform="translate(427.000000, 492.000000)">
+<g id="util_c_chevron-down_16p" transform="translate(731.000000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-731.000000, -8.000000) translate(723.000000, 3.000000)">
+<polygon id="Shape" points="8 10 0 1.97029007 1.963 0 8 6.05941985 14.037 0 16 1.97029007 8 10"></polygon>
+</g>
+</g>
+</g>
+</g>
+</svg></a></div>
+                      </div>
+                    </div>
+                    <div class="detalle_inversionista">
+                      <div class="row">
+                        <div class="col-11 col-sm-11">
+                          <h5>Perfil Inversionista</h5>
+                        </div>
+                        <div class="col-1 col-sm-1"><a href="perfil-inversionista.html"><svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<defs></defs>
+<g id="final-WS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="002_Dskt" transform="translate(-1153.000000, -492.000000)" fill="#FFF" fill-rule="nonzero">
+<g id="Group-2" transform="translate(427.000000, 492.000000)">
+<g id="util_c_chevron-down_16p" transform="translate(731.000000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-731.000000, -8.000000) translate(723.000000, 3.000000)">
+<polygon id="Shape" points="8 10 0 1.97029007 1.963 0 8 6.05941985 14.037 0 16 1.97029007 8 10"></polygon>
+</g>
+</g>
+</g>
+</g>
+</svg></a></div>
+                      </div>
+                    </div>
+                    <div class="contenido-detalles-ahorro accordion">
+                      <div class="dashboard-nav accordion__title bg-purple">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-9 col-9 no-padding">
+                            <div class="dash-nav-icon"><img src="assets/icons/icon-grandesproyectos.svg"/></div>
+                            <h3>Grandes Proyectos</h3>
+                          </div>
+                          <div class="col-3 col-md-3 no-padding">
+                            <h6>2 proyectos</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion__content">
+                        <div class="deglose-mundo bgs-purple">
+                          <div class="row">
+                            <div class="col-4 col-sm-5">
+                              <h4>Ahorro mensual</h4>
+                            </div>
+                            <div class="col-4 col-sm-3 no-padding">
+                              <h5>UF <span>3.500</span></h5>
+                            </div>
+                            <div class="col-4 col-sm-4 no-padding">
+                              <h6>$ 40.569.901</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-9 hide no-padding" id="info-cliente2">
+            <div class="info-cliente-encontrado">
+              <div class="row no-padding">
+                <div class="col-12 col-sm-6 clientes">
+                  <h2 class="titulo-principal">Cliente Metlife</h2>
+                  <div class="info-cliente"><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                    <div class="user-info">
+                      <h5>09.345.678-9</h5>
+                      <h6>Carlos Errázuriz Peña</h6>
+                    </div>
+                    <div class="grid-container">
+                      <div class="grid-col">
+                        <h3>Asesor:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h4>Rodrigo Santiesteban</h4>
+                      </div>
+                      <div class="grid-col">
+                        <h3>GA:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h4>Patricio Fernández Palma</h4>
+                      </div>
+                      <div class="grid-col hide">
+                        <h3 class="italic">Cliente:</h3>
+                      </div>
+                      <div class="grid-col hide">
+                        <h4 class="italic">No es de tu cartera </h4>
+                      </div>
+                    </div>
+                    <p>Último contacto: 10/03/2017</p><a href="#"><span>Ver notas</span><svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="0035_" transform="translate(-30.000000, -78.000000)" fill="#1697f3" fill-rule="nonzero">
+<g id="if_new-24_103173" transform="translate(30.000000, 78.000000)">
+<path d="M24.3868182,6.34163636 C23.8349091,5.42927273 23.1541818,4.53581818 22.321,3.70736364 C21.4783636,2.87063636 20.5695455,2.18518182 19.6394545,1.63445455 L21.2727273,0 C21.2727273,0 23.6363636,0 24.8181818,1.18181818 C26,2.36363636 26,4.72727273 26,4.72727273 L24.3868182,6.34163636 Z M10.6363636,20.0909091 L5.90909091,20.0909091 L5.90909091,15.3636364 L6.47636364,14.7963636 C7.43718182,15.2513636 8.39209091,15.8907273 9.25127273,16.7487273 C10.1116364,17.6102727 10.7498182,18.5628182 11.2036364,19.5236364 L10.6363636,20.0909091 Z M23.0218182,7.70545455 L12.5674545,18.1586364 C12.0155455,17.2474545 11.3348182,16.3516364 10.5016364,15.5243636 C9.66018182,14.6864545 8.75018182,14.0021818 7.82009091,13.4514545 L18.2945455,2.97818182 C19.2553636,3.43081818 20.2102727,4.07018182 21.0694545,4.92936364 C21.931,5.78972727 22.5691818,6.74463636 23.0218182,7.70545455 Z M3.54545455,3.54545455 L3.54545455,22.4545455 L22.4545455,22.4545455 L22.4545455,14.1818182 L26,10.5914545 L26,23.6363636 C26,24.9422727 24.9410909,26 23.6363636,26 L2.36363636,26 C1.05890909,26 0,24.9422727 0,23.6363636 L0,2.36363636 C0,1.05890909 1.05890909,0 2.36363636,0 L15.3754545,0 L11.8288182,3.54545455 L3.54545455,3.54545455 Z" id="Shape"></path>
+</g>
+</g>
+</g></a></svg>
+                  </div>
+                  <div class="info-ahorro">
+                    <h2>Suma objetivos de ahorro</h2>
+                    <div class="box-result box-result__regular-theme box-result__regular"> 
+                      <div class="box-value">
+                        <p class="label">Total ahorro</p>
+                        <p class="valueNumber"><span class="value">UF</span> 5.454</p>
+                      </div>
+                      <div class="box-uf">
+                        <p class="ufNumber"><span class="uf">$</span> 123.890.567</p>
+                      </div>
+                    </div>
+                    <div class="box-result-details box-result-details__regular-theme">
+                      <div class="box-objetivos">
+                        <p class="txt-label">Objetivo de Ahorro Mensual</p>
+                        <p class="value">UF <span class="uf">10.5</span></p>
+                      </div>
+                      <div class="box-proyectos">
+                        <p class="txt-label"><span class="peso">$</span> 522.987</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 detalles">
+                  <div class="info-detalles">
+                    <h2>Detalle objetivos de ahorro</h2>
+                    <div class="detalle_antecedente">
+                      <div class="row">
+                        <div class="col-11 col-sm-11">
+                          <h5>Antecedentes cliente</h5>
+                        </div>
+                        <div class="col-1 col-sm-1"><a href="antecedentes-clientes.html"><svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<defs></defs>
+<g id="final-WS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="002_Dskt" transform="translate(-1153.000000, -492.000000)" fill="#FFF" fill-rule="nonzero">
+<g id="Group-2" transform="translate(427.000000, 492.000000)">
+<g id="util_c_chevron-down_16p" transform="translate(731.000000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-731.000000, -8.000000) translate(723.000000, 3.000000)">
+<polygon id="Shape" points="8 10 0 1.97029007 1.963 0 8 6.05941985 14.037 0 16 1.97029007 8 10"></polygon>
+</g>
+</g>
+</g>
+</g>
+</svg></a></div>
+                      </div>
+                    </div>
+                    <div class="detalle_inversionista">
+                      <div class="row">
+                        <div class="col-11 col-sm-11">
+                          <h5>Perfil Inversionista</h5>
+                        </div>
+                        <div class="col-1 col-sm-1"><a href="perfil-inversionista.html"><svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<defs></defs>
+<g id="final-WS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="002_Dskt" transform="translate(-1153.000000, -492.000000)" fill="#FFF" fill-rule="nonzero">
+<g id="Group-2" transform="translate(427.000000, 492.000000)">
+<g id="util_c_chevron-down_16p" transform="translate(731.000000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-731.000000, -8.000000) translate(723.000000, 3.000000)">
+<polygon id="Shape" points="8 10 0 1.97029007 1.963 0 8 6.05941985 14.037 0 16 1.97029007 8 10"></polygon>
+</g>
+</g>
+</g>
+</g>
+</svg></a></div>
+                      </div>
+                    </div>
+                    <div class="contenido-detalles-ahorro accordion">
+                      <div class="dashboard-nav accordion__title bg-green">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-9 col-9 no-padding">
+                            <div class="dash-nav-icon"><img src="assets/icons/icon-saludproteccion.svg"/></div>
+                            <h3>Protección y Salud</h3>
+                          </div>
+                          <div class="col-3 col-md-3 no-padding">
+                            <h6>2 proyectos</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion__content">
+                        <div class="deglose-mundo bgs-green">
+                          <div class="row">
+                            <div class="col-4 col-sm-5">
+                              <h4>Total Protección Necesaria</h4>
+                            </div>
+                            <div class="col-4 col-sm-3 no-padding">
+                              <h5>UF <span>3.500</span></h5>
+                            </div>
+                            <div class="col-4 col-sm-4 no-padding">
+                              <h6>$ 123.680.900</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dashboard-nav accordion__title bg-yellow">
+                        <div class="row">
+                          <div class="col-lg-9 col-md-9 col-9 no-padding">
+                            <div class="dash-nav-icon"><img src="assets/icons/icon-educacion.svg"/></div>
+                            <h3>Educación</h3>
+                          </div>
+                          <div class="col-3 col-md-3 no-padding">
+                            <h6>3 Dependientes</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion__content">
+                        <div class="deglose-mundo bgs-yellow">
+                          <div class="row">
+                            <div class="col-4 col-sm-5">
+                              <h4>Ahorro Total</h4>
+                            </div>
+                            <div class="col-4 col-sm-3 no-padding">
+                              <h5>UF <span>1.233</span></h5>
+                            </div>
+                            <div class="col-4 col-sm-4 no-padding">
+                              <h6>$ 40.569.901</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion__content">
+                        <div class="deglose-mundo bgs-yellow">
+                          <div class="row">
+                            <div class="col-4 col-sm-5">
+                              <h4>Ahorro Mensual</h4>
+                            </div>
+                            <div class="col-4 col-sm-3 no-padding">
+                              <h5>UF <span>35</span></h5>
+                            </div>
+                            <div class="col-4 col-sm-4 no-padding">
+                              <h6>$ 359.954</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="wrap-container footer-brand">
+        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/></div>
+        <div class="footer-social">
+          <p>Siguenos</p><img src="assets/icons/icon-facebook.svg" alt=""/><img src="assets/icons/icon-twitter.svg" alt=""/>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div class="wrap-container">
+          <p>Agustinas 640, Santiago, Chile    Compañías MetLife</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/selectize.js"></script>
+    <script src="js/libs/selectize.min.js"></script>
+    <script src="js/libs/owl.carousel.js"></script>
+    <script src="js/libs/progress_tracker.js"></script>
+    <script src="js/libs/step-form-wizard.js"></script>
+    <script src="js/libs/acordeon.js"></script>
+    <script src="js/funciones.js"></script>
+  </body>
+</html>

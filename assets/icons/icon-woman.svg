@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="28px" viewBox="0 0 17 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>woman</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="006_Dskt" transform="translate(-389.000000, -362.000000)" fill="#0090DA" fill-rule="nonzero">
+            <g id="Datos-básicos" transform="translate(321.000000, 307.000000)">
+                <g id="Género*" transform="translate(1.000000, 35.000000)">
+                    <g transform="translate(16.000000, 20.000000)" id="woman">
+                        <g transform="translate(51.000000, 0.000000)">
+                            <path d="M2.9350137,11.5755068 L2.9350137,5.30734247 C2.95971454,2.40972778 5.31567729,0.0737629259 8.21339726,0.0737629259 C11.1111172,0.0737629259 13.46708,2.40972778 13.4917808,5.30734247 L13.4917808,11.5755068" id="Shape"></path>
+                            <path d="M0.363616438,27.6229589 L16.0631781,27.6229589 C15.6371098,23.4328387 14.7584891,19.3011865 13.4426849,15.300274 L2.98410959,15.300274 L2.97835616,15.3179178 C1.66590185,19.3133899 0.789228799,23.4390388 0.363616438,27.6229589 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

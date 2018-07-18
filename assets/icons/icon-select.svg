@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="18px" viewBox="0 0 9 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Select</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Input_Select_Desktop" transform="translate(-263.000000, -11.000000)" fill="#666666">
+            <g id="Select" transform="translate(263.000000, 11.000000)">
+                <polygon id="Rectangle-2" points="4.5 0.349609375 9 6 0 6"></polygon>
+                <polygon id="Rectangle-2" transform="translate(4.500000, 15.174805) scale(1, -1) translate(-4.500000, -15.174805) " points="4.5 12.3496094 9 18 0 18"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
