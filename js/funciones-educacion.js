@@ -14,4 +14,11 @@ function flujoEducacion() {
 
 $(".link-cobertura").click(function () {
     $(".cobertura-box").toggleClass("hide");
+    $(".icon-menos").toggleClass("hide");
+    $(".icon-mas").toggleClass("hide");
+});
+
+//SOLO NUMEROS
+$('.input-number').on('input', function () {
+    this.value = this.value.replace(/[^0-9]/g, '');
 });

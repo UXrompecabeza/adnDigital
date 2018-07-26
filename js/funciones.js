@@ -35,44 +35,13 @@ function botonNotas() {
     });
 }
 
-// HOME
-
-$("#buscarRut").click(function() {
-    $(".busqueda_resultados").show();
-})
-$("#cliente1").click(function() {
-    $("#home-info").hide();
-    $("#info-cliente1").show();
-})
-$("#cliente2").click(function() {
-    $("#home-info").hide();
-    $("#info-cliente2").show();
-})
-
-//SELECTIZE
-
-$('#input-rut-home').selectize({
-    plugins: ['remove_button'],
-    delimiter: ',',
-    persist: false,
-    create: function(input) {
-        return {
-            value: input,
-            text: input
-        }
-    }
-});
-
-
 //DATEPICKER NOTAS
 
 jQuery(document).ready(function(){
     jQuery('.datepicker2').datepicker();
 });
 
-//AUTOELIMINAR
 
-$('.btdel').on('click', function() {
-    $(this).parent().remove();
-});
+
+
     

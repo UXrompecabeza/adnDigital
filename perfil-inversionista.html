@@ -36,7 +36,7 @@
     <div class="row">
       <div class="hide-lg full-box header-hide"> 
         <header>
-          <div class="box-lupa hide-lg"><img src="assets/icons/icon-search-black.svg" alt=""/></div>
+          <div class="box-lupa hide-lg"><a href="home.html"><img src="assets/icons/icon-search-black.svg" alt=""/></a></div>
           <div class="box-adn">
             <p>ADN</p>
           </div>
@@ -59,21 +59,22 @@
           </div>
           <div class="menu-sidebar">
             <ul class="nav nav-tabs nav-tabs--vertical nav-tabs--left" role="navigation">
-              <li class="botonera-tab-menu bg-brand nav-item"><a href="antecedentes-clientes.html">
+              <li class="botonera-tab-menu bg-brand nav-item item-disable-mo"> <a href="antecedentes-clientes.html">
                   <p><span class="hide-md hide-sm">Antecedentes </span>Cliente</p></a></li>
               <li class="botonera-tab-menu bg-brand nav-item reduce"><a class="active" href="perfil-inversionista.html">
                   <p>Perfil<span class="hide-lg hide-md"><br></span> Invers<span class="hide-lg hide-md">.<br></span><span class="hide-md hide-sm">ionista</span></p></a></li>
-              <li class="botonera-tab-menu icon-btn bg-green nav-item item-disable"><a href="proteccion-salud.html"><img src="assets/icons/icon-saludproteccion.svg" alt=""/>
+              <li class="botonera-tab-menu icon-btn bg-green nav-item"><a href="proteccion-salud.html"><img src="assets/icons/icon-saludproteccion.svg" alt=""/>
                   <p class="hide-md hide-sm">Protección y Salud</p></a></li>
-              <li class="botonera-tab-menu icon-btn bg-yellow nav-item item-disable"> <a href="educacion.html"><img src="assets/icons/icon-educacion.svg" alt=""/>
-                  <p class="hide-md hide-sm">Educación</p></a></li>
-              <li class="botonera-tab-menu icon-btn bg-purple nav-item item-disable"> <a href="grandes-proyectos.html"><img src="assets/icons/icon-grandesproyectos.svg" alt=""/>
-                  <p class="hide-md hide-sm">Grandes Proyectos</p></a></li>
               <li class="botonera-tab-menu icon-btn bg-pink nav-item item-disable"> <a href="jubilacion.html"><img src="assets/icons/icon-jubilacion.svg" alt=""/>
                   <p class="hide-md hide-sm">Jubilación</p></a></li>
-              <li class="botonera-tab-menu bg-brand nav-item item-disable"> <a href="totales.html">
-                  <p>Totales</p></a></li>
-              <li class="botonera-tab-menu nav-item search_button hide-sm hide-md"> <a class="btn-search" href="home.html"><img src="assets/icons/icon-search.svg" alt=""/></a></li>
+              <li class="botonera-tab-menu icon-btn bg-purple nav-item item-disable"> <a href="grandes-proyectos.html"><img src="assets/icons/icon-grandesproyectos.svg" alt=""/>
+                  <p class="hide-md hide-sm">Grandes Proyectos</p></a></li>
+              <li class="botonera-tab-menu icon-btn bg-yellow nav-item item-disable"> <a href="educacion.html"><img src="assets/icons/icon-educacion.svg" alt=""/>
+                  <p class="hide-md hide-sm">Educación</p></a></li>
+              <li class="botonera-tab-menu bg-brand nav-item item-disable-mo"> <a href="totales.html">
+                  <p>Plan de <span class="hide-sm">Protección</span><span class="hide-md hide-lg">Protecc.</span></p></a></li>
+              <li class="botonera-tab-menu nav-item search_button hide-sm hide-md"> <a class="btn-search" href="home.html"><img src="assets/icons/ic_search.svg"/>
+                  <p>Buscar ADN</p></a></li>
             </ul>
           </div>
         </div>
@@ -81,7 +82,7 @@
       <div class="col-lg-9 col-sm-12 no-padding">
         <div class="hide-sm hide-md"> 
           <header>
-            <div class="box-lupa hide-lg"><img src="assets/icons/icon-search-black.svg" alt=""/></div>
+            <div class="box-lupa hide-lg"><a href="home.html"><img src="assets/icons/icon-search-black.svg" alt=""/></a></div>
             <div class="box-adn">
               <p>ADN</p>
             </div>
@@ -95,244 +96,184 @@
             <div class="dashboard-tab">
               <div class="dashboard-nav bg-brand">
                 <h2>Perfil Inversionista</h2>
-                <div class="dashboard-modal brand-arrow_cliente"><a type="button" data-toggle="modal" data-target="#modalTablaPerfil">
-                    <svg width="15px" height="16px" viewbox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch-->
-                      <title>ic_+</title>    
-                      <desc>Created with Sketch.</desc>    
-                      <defs></defs>    
-                      <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="006_Dskt" transform="translate(-1180.000000, -560.000000)" fill="#0061A0">
-                          <g id="información-comercial" transform="translate(319.000000, 556.000000)">
-                            <g id="acordeon-2-close" transform="translate(0.000000, 4.000000)">
-                              <g id="ic_+" transform="translate(861.000000, 0.000000)">
-                                <rect id="Rectangle-8" x="0" y="6" width="15" height="4"></rect>                        
-                                <rect id="Rectangle-8" transform="translate(7.500000, 8.000000) rotate(90.000000) translate(-7.500000, -8.000000) " x="0" y="6" width="15" height="4"></rect>
-                              </g>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </svg></a>
-                  <div class="modal-tabla modal-tabla__blue modal fade" id="modalTablaPerfil" tabindex="-1" role="dialog" aria-labelledby="modalTablasLabel" aria-hidden="true">
+              </div>
+              <div class="dashboard-tab_content">
+                <div class="content content-perfil">
+                  <div class="modal modal-tabla modal-tabla__notas fade" id="modalNotas" tabindex="-1" role="dialog" aria-labelledby="modalNotasLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                       <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Aranceles Clínicas 2018</h5>
+                        <div class="modal-header"><img class="icon-note" src="assets/icons/ic_notas.svg" alt=""/>
+                          <h5 class="modal-title" id="exampleModalLabel">Ingresar Notas</h5>
                           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                         </div>
                         <div class="modal-body">
                           <div class="row">
+                            <div class="col-12">
+                              <textarea name="" cols="30" rows="10" placeholder="Ingrese texto"></textarea>
+                            </div>
+                            <div class="col-12">
+                              <div class="btn-area">
+                                <button class="btn-blue" type="button">GRABAR</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="container-fluid filtros-notas"><span>Ver todo</span>
+                              <div class="checkbox-area">
+                                <label class="form-check-label" for="checkDepen1"> 
+                                  <input class="form-check-input" type="checkbox" name="cbxDep" id="checkDepen1" checked="checked"/><span class="checkmark"></span>
+                                </label>
+                              </div><span>|</span><span>Ver por mes</span>
+                              <div class="iptselect-area">
+                                <select name="">
+                                  <option value="1">Julio</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
                             <div class="container-fluid">
-                              <h3 class="modal-title-nav">Valores Referenciales</h3>
-                            </div>
-                            <div class="col-lg-4">
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-                            <div class="col-lg-4">
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-                            <div class="col-lg-4">
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="accordion accordion__notas" data-faq="most_common">
+                                <div class="border-top accordion-item accordion-item__green">
+                                  <div class="accordion__title"><span class="brand-1st">Protección y Salud</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__yellow">
+                                  <div class="accordion__title"><span class="progres brand-1st">Educación</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__purple">
+                                  <div class="accordion__title"><span class="progres brand-1st">Grandes Proyectos</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__red">
+                                  <div class="accordion__title"><span class="progres brand-1st">Jubilación</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="modal-footer">
-                          <div class="btn-area">
-                            <button class="btn-blue" type="button" data-dismiss="modal">Cerrar</button>
-                          </div>
-                          <p class="txt-legal">FUENTE: clinicasantamaria.cl  |  alemana.cl  |  clinicalascondes.cl</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="dashboard-tab_content">
-                <div class="content content-perfil">
+                  <div class="notas-container">
+                    <button class="btn-rounded" type="button" data-toggle="modal" data-target="#modalNotas"></button>
+                  </div>
                   <div class="perfil-desk">
                     <div class="perfil-step1 hide-sm">
                       <div class="verticalTracker">
@@ -366,7 +307,35 @@
                                 </div>
                               </div></span></li>
                           <li class="progress-step pro-step-2"><span class="progress-marker"></span><span class="progress-text">
-                              <h4 class="progress-title">2. Esperas que tus ingresos futuros sean</h4>
+                              <h4 class="progress-title">2. Selecciona tu tramo de edad</h4>
+                              <div class="rbtn-group">
+                                <div class="rdbtn-area">
+                                  <input type="radio" name="ageRbx" id="age1"/>
+                                  <label class="check" for="age1"> 
+                                    <p>Mayor a 55 años</p>
+                                  </label>
+                                </div>
+                                <div class="rdbtn-area">
+                                  <input type="radio" name="ageRbx" id="age2"/>
+                                  <label class="check" for="age2"> 
+                                    <p>Entre 45 y 55 años</p>
+                                  </label>
+                                </div>
+                                <div class="rdbtn-area">
+                                  <input type="radio" name="ageRbx" id="age3"/>
+                                  <label class="check" for="age3"> 
+                                    <p>Entre 35 y 45 años</p>
+                                  </label>
+                                </div>
+                                <div class="rdbtn-area">
+                                  <input type="radio" name="ageRbx" id="age4"/>
+                                  <label class="check" for="age4"> 
+                                    <p>Menor de 35 años</p>
+                                  </label>
+                                </div>
+                              </div></span></li>
+                          <li class="progress-step pro-step-3"><span class="progress-marker"></span><span class="progress-text">
+                              <h4 class="progress-title">3. Esperas que tus ingresos futuros sean</h4>
                               <div class="rbtn-group">
                                 <div class="rdbtn-area">
                                   <input type="radio" name="ingresosRbx" id="ingresos1"/>
@@ -393,8 +362,8 @@
                                   </label>
                                 </div>
                               </div></span></li>
-                          <li class="progress-step pro-step-3"><span class="progress-marker"></span><span class="progress-text">
-                              <h4 class="progress-title">3. De tu ingreso mensual, tu capacidad de ahorro estimada es</h4>
+                          <li class="progress-step pro-step-4"><span class="progress-marker"></span><span class="progress-text">
+                              <h4 class="progress-title">4. De tu ingreso mensual, tu capacidad de ahorro estimada es</h4>
                               <div class="rbtn-group">
                                 <div class="rdbtn-area">
                                   <input type="radio" name="porcentajeRbx" id="porcentaje1"/>
@@ -421,8 +390,8 @@
                                   </label>
                                 </div>
                               </div></span></li>
-                          <li class="progress-step pro-step-4"><span class="progress-marker"></span><span class="progress-text">
-                              <h4 class="progress-title">4. ¿Qué porcentaje de la inversión estás dispuesto a perder?</h4>
+                          <li class="progress-step pro-step-5"><span class="progress-marker"></span><span class="progress-text">
+                              <h4 class="progress-title">5. ¿Qué porcentaje de la inversión estás dispuesto a perder?</h4>
                               <div class="rbtn-group">
                                 <div class="rdbtn-area">
                                   <input type="radio" name="inversionRbx" id="inversion1"/>
@@ -449,8 +418,8 @@
                                   </label>
                                 </div>
                               </div></span></li>
-                          <li class="progress-step pro-step-5"><span class="progress-marker"></span><span class="progress-text">
-                              <h4 class="progress-title">5. ¿Has invertido en acciones o fondos mutuos?</h4>
+                          <li class="progress-step pro-step-6"><span class="progress-marker"></span><span class="progress-text">
+                              <h4 class="progress-title">6. ¿Has invertido en acciones o fondos mutuos?</h4>
                               <div class="rbtn-group">
                                 <div class="rdbtn-area">
                                   <input type="radio" name="fondosRbx" id="fondos1"/>
@@ -477,8 +446,8 @@
                                   </label>
                                 </div>
                               </div></span></li>
-                          <li class="progress-step pro-step-6"><span class="progress-marker"></span><span class="progress-text">
-                              <h4 class="progress-title">6. Tu objetivo más importante de la inversión es</h4>
+                          <li class="progress-step pro-step-7"><span class="progress-marker"></span><span class="progress-text">
+                              <h4 class="progress-title">7. Tu objetivo más importante de la inversión es</h4>
                               <div class="rbtn-group">
                                 <div class="rdbtn-area">
                                   <input type="radio" name="capitalRbx" id="capital1"/>
@@ -512,7 +481,7 @@
                         <button class="btn-perfil-desk_step1 btn-blue" href="#" disable="disable">VER RESULTADO</button>
                       </div>
                     </div>
-                    <div class="perfil-step2 hide center">
+                    <div class="perfil-step2 hide hide-sm center">
                       <div class="menu-perfiles">
                         <ul class="hide-sm nav nav-tabs" role="navigation">
                           <li class="nav-item"><a href="#dep1-b" data-toggle="tab" role="tab" aria-controls="dep1">
@@ -665,7 +634,7 @@
                           <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
                           <p>El horizonte de inversión es de mediano a corto plazo.</p>
                         </div><br/><br/><br/><br/>
-                        <div class="btn-area-double center center"><a class="btn-blue_outline" href="perfil-inversionista.html">VOLVER</a></div><br/><br/>
+                        <div class="btn-area-double center center"><a class="btn-blue_outline" href="perfil-inversionista.html">VOLVER</a><a class="btn-blue" href="proteccion-salud.html">IR A MUNDOS</a></div><br/><br/>
                       </div>
                     </div>
                   </div>
@@ -676,6 +645,7 @@
                           <div class="dots-list">
                             <ul>
                               <li class="active"></li>
+                              <li></li>
                               <li></li>
                               <li></li>
                               <li></li>
@@ -711,6 +681,7 @@
                             </div>
                           </div><br/><br/>
                           <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
                             <button class="btn-blue customNextBtn" type="button">SIGUIENTE</button>
                           </div>
                         </div>
@@ -723,9 +694,54 @@
                               <li></li>
                               <li></li>
                               <li></li>
+                              <li></li>
                             </ul>
                           </div>
-                          <h4 class="progress-title">2. Esperas que tus ingresos futuros sean</h4>
+                          <h4 class="progress-title">2. Selecciona tu tramo de edad</h4>
+                          <div class="rbtn-group">
+                            <div class="rdbtn-area">
+                              <input type="radio" name="ageRbx" id="age1-mo"/>
+                              <label class="check" for="age1-mo"> 
+                                <p>Mayor a 55 años</p>
+                              </label>
+                            </div>
+                            <div class="rdbtn-area">
+                              <input type="radio" name="ageRbx" id="age2-mo"/>
+                              <label class="check" for="age2-mo"> 
+                                <p>Entre 45 y 55 años</p>
+                              </label>
+                            </div>
+                            <div class="rdbtn-area">
+                              <input type="radio" name="ageRbx" id="age3-mo"/>
+                              <label class="check" for="age3-mo"> 
+                                <p>Entre 35 y 45 años</p>
+                              </label>
+                            </div>
+                            <div class="rdbtn-area">
+                              <input type="radio" name="ageRbx" id="age4-mo"/>
+                              <label class="check" for="age4-mo"> 
+                                <p>Menor de 35 años</p>
+                              </label>
+                            </div>
+                          </div><br/><br/>
+                          <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
+                            <button class="btn-blue customNextBtn" type="button">SIGUIENTE</button>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="dots-list">
+                            <ul>
+                              <li></li>
+                              <li></li>
+                              <li class="active"></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
+                          </div>
+                          <h4 class="progress-title">3. Esperas que tus ingresos futuros sean</h4>
                           <div class="rbtn-group">
                             <div class="rdbtn-area">
                               <input type="radio" name="ingresosRbx" id="ingresos1-mo"/>
@@ -753,6 +769,7 @@
                             </div>
                           </div><br/><br/>
                           <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
                             <button class="btn-blue customNextBtn" type="button">SIGUIENTE</button>
                           </div>
                         </div>
@@ -761,13 +778,14 @@
                             <ul>
                               <li></li>
                               <li></li>
+                              <li></li>
                               <li class="active"></li>
                               <li></li>
                               <li></li>
                               <li></li>
                             </ul>
                           </div>
-                          <h4 class="progress-title">3. De tu ingreso mensual, tu capacidad de ahorro estimada es</h4>
+                          <h4 class="progress-title">4. De tu ingreso mensual, tu capacidad de ahorro estimada es</h4>
                           <div class="rbtn-group">
                             <div class="rdbtn-area">
                               <input type="radio" name="porcentajeRbx" id="porcentaje1-mo"/>
@@ -795,6 +813,7 @@
                             </div>
                           </div><br/><br/>
                           <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
                             <button class="btn-blue customNextBtn" type="button">SIGUIENTE</button>
                           </div>
                         </div>
@@ -804,12 +823,13 @@
                               <li></li>
                               <li></li>
                               <li></li>
+                              <li></li>
                               <li class="active"></li>
                               <li></li>
                               <li></li>
                             </ul>
                           </div>
-                          <h4 class="progress-title">4. ¿Qué porcentaje de la inversión estás dispuesto a perder?</h4>
+                          <h4 class="progress-title">5. ¿Qué porcentaje de la inversión estás dispuesto a perder?</h4>
                           <div class="rbtn-group">
                             <div class="rdbtn-area">
                               <input type="radio" name="inversionRbx" id="inversion1-mo"/>
@@ -837,6 +857,7 @@
                             </div>
                           </div><br/><br/>
                           <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
                             <button class="btn-blue customNextBtn" type="button">SIGUIENTE</button>
                           </div>
                         </div>
@@ -847,11 +868,12 @@
                               <li></li>
                               <li></li>
                               <li></li>
+                              <li></li>
                               <li class="active"></li>
                               <li></li>
                             </ul>
                           </div>
-                          <h4 class="progress-title">5. ¿Has invertido en acciones o fondos mutuos?</h4>
+                          <h4 class="progress-title">6. ¿Has invertido en acciones o fondos mutuos?</h4>
                           <div class="rbtn-group">
                             <div class="rdbtn-area">
                               <input type="radio" name="fondosRbx" id="fondos1-mo"/>
@@ -879,6 +901,7 @@
                             </div>
                           </div><br/><br/>
                           <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
                             <button class="btn-blue customNextBtn" type="button">SIGUIENTE</button>
                           </div>
                         </div>
@@ -890,10 +913,11 @@
                               <li></li>
                               <li></li>
                               <li></li>
+                              <li></li>
                               <li class="active"></li>
                             </ul>
                           </div>
-                          <h4 class="progress-title">6. Tu objetivo más importante de la inversión es</h4>
+                          <h4 class="progress-title">7. Tu objetivo más importante de la inversión es</h4>
                           <div class="rbtn-group">
                             <div class="rdbtn-area">
                               <input type="radio" name="capitalRbx" id="capital1-mo"/>
@@ -921,16 +945,17 @@
                             </div>
                           </div><br/><br/>
                           <div class="btn-area center">
+                            <button class="btn-blue_outline" href="#" disable="disable">GRABAR</button>
                             <button class="btn-blue btn-result-mo" type="button">VER RESULTADO</button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="perfil-movil-2 hide-lg hide-md no-view center">
+                  <div class="perfil-movil-2 hide hide-md hide-lg center">
                     <div class="menu-perfiles">
                       <div class="carrusel-perfil__result">
-                        <div class="item slick-slide slick-current slick-active slick-center">
+                        <div class="item">
                           <div class="box-perfiles">
                             <div class="box-perfiles_img">
                               <svg width="70px" height="70px" viewbox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -966,7 +991,7 @@
                           </div>
                           <div class="menu-perfiles_content">
                             <h3 class="title">MODERADO</h3>
-                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
+                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p>
                             <p>El horizonte de inversión es de mediano a corto plazo.</p>
                           </div>
                         </div>
@@ -993,7 +1018,7 @@
                           </div>
                           <div class="menu-perfiles_content">
                             <h3 class="title">ARRIESGADO</h3>
-                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
+                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p>
                             <p>El horizonte de inversión es de mediano a corto plazo.</p>
                           </div>
                         </div>
@@ -1020,7 +1045,7 @@
                           </div>
                           <div class="menu-perfiles_content">
                             <h3 class="title">MUY ARRIESGADO</h3>
-                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
+                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p>
                             <p>El horizonte de inversión es de mediano a corto plazo.</p>
                           </div>
                         </div>
@@ -1050,7 +1075,7 @@
                           </div>
                           <div class="menu-perfiles_content">
                             <h3 class="title">MUY CONSERVADOR</h3>
-                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
+                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p>
                             <p>El horizonte de inversión es de mediano a corto plazo.</p>
                           </div>
                         </div>
@@ -1078,13 +1103,13 @@
                           </div>
                           <div class="menu-perfiles_content">
                             <h3 class="title">CONSERVADOR</h3>
-                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
+                            <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p>
                             <p>El horizonte de inversión es de mediano a corto plazo.</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="btn-area-double center center"><a class="btn-blue_outline" href="perfil-inversionista.html">VOLVER</a><a class="btn-blue" href="mundos.html"><span class="hide-sm">INGRESAR A UN </span>MUNDO<span class="hide-lg hide-md">S</span></a></div>
+                    <div class="btn-area center center"><a class="btn-blue_outline" href="perfil-inversionista.html">VOLVER</a><a class="btn-blue" href="mundos.html"><span>IR A MUNDOS</span></a></div>
                   </div>
                 </div>
               </div>
@@ -1094,15 +1119,28 @@
       </div>
     </div>
     <footer>
-      <div class="wrap-container footer-brand">
-        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/></div>
-        <div class="footer-social">
-          <p>Síguenos</p><img src="assets/icons/icon-facebook.svg" alt=""/><img src="assets/icons/icon-twitter.svg" alt=""/>
+      <div class="wrap-container footer-brand hide-md hide-lg">
+        <div class="footer-img">
+          <div class="row">
+            <div class="col-9"><img src="assets/imgs/logo-footer.png" alt=""/></div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+        <div class="footer-number-mo">
+          <p>600 390 3000</p>
+        </div>
+        <div class="footer-legal">
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. </p>
+          <p>Desde teléfonos celulares o desde el extranjero al </p>
+          <p><span>+56 2 2826 47 90</span></p>
         </div>
       </div>
-      <div class="footer-legal">
-        <div class="wrap-container">
-          <p>Agustinas 640, Santiago, Chile    Compañías MetLife</p>
+      <div class="wrap-container footer-brand hide-sm">
+        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/>
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. Desde eléfonos celulares o desde el extranjero al <span>+56 2 2826 47 90</span></p>
+        </div>
+        <div class="footer-number">
+          <p>600 390 3000</p>
         </div>
       </div>
     </footer>

@@ -34,7 +34,7 @@
     <div class="row">
       <div class="hide-lg full-box header-hide"> 
         <header>
-          <div class="box-lupa hide-lg"><img src="assets/icons/icon-search-black.svg" alt=""/></div>
+          <div class="box-lupa hide-lg"><a href="home.html"><img src="assets/icons/icon-search-black.svg" alt=""/></a></div>
           <div class="box-adn">
             <p>ADN</p>
           </div>
@@ -47,21 +47,22 @@
         <div class="text-welcome hide-sm">
           <h2>Bienvenido a ADN</h2>
           <p class="titulo-secundario">Una asesoría acorde a las necesidades de cada uno de tus clientes</p>
+          <div class="hide" id="buscarADN"><a class="btn-search" href="home.html"><img src="assets/icons/ic_search.svg"/>
+              <p>Buscar ADN</p></a></div>
         </div>
       </div>
       <div class="home-container">
         <div class="row">
-          <div class="col-lg-3 hide-sm hide-md no-padding"><img src="assets/imgs/ejecutivo.png" alt=""/></div>
-          <div class="col-12 col-md-12 col-lg-9" id="home-info">
+          <div class="col-12 col-md-12" id="home-info">
             <div class="row">
               <div class="col-12 col-md-6 center welcome-info_left">
                 <p class="titulo-principal">¿Tu cliente ya existe?</p>
                 <input type="text" placeholder="Ingresa Rut" id="input-rut-home"/>
-                <div class="btn-area"><a class="btn-blue_outline" href="#" id="buscarRut">BUSCAR</a></div>
+                <div class="btn-area"><a class="btn-blue_outline" href="javascript:void(0)" id="buscarRut">BUSCAR</a></div>
               </div>
               <div class="col-12 col-md-6 center welcome-info">
                 <p class="titulo-principal">¿Quieres crear un ADN?</p>
-                <div class="btn-area"><a class="btn-blue" href="antecedentes-clientes.html">IR INICIAR</a></div>
+                <div class="btn-area"><a class="btn-blue" href="antecedentes-clientes.html">INICIAR</a></div>
               </div>
             </div>
             <div class="container-busqueda">
@@ -76,14 +77,24 @@
               <div class="busqueda_resultados hide">
                 <h2 class="title_search hide-sm">Resultado de Búsqueda</h2>
                 <table>
+                  <thead class="hide-sm">
+                    <tr>
+                      <th>Cliente / Prospecto</th>
+                      <th>Asesor / GA</th>
+                      <th>Datos Generales</th>
+                      <th class="center">Bajar PDF</th>
+                      <th class="center">Ver</th>
+                      <th class="center">Editar</th>
+                    </tr>
+                  </thead>
                   <tbody>
                     <tr>
-                      <td><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                      <td>
                         <div class="user-info">
                           <h5>12.345.678-9</h5>
                           <h6>Isabel Margarita Errázuriz Peña</h6>
                         </div>
-                        <div class="grid-container hide-md hide-lg">
+                        <div class="grid-container_left hide-md hide-lg">
                           <div class="grid-col">
                             <h3>Asesor:</h3>
                           </div>
@@ -96,17 +107,29 @@
                           <div class="grid-col">
                             <h4>Patricio Fernández </h4>
                           </div>
+                        </div>
+                        <div class="grid-container_right hide-md hide-lg">
                           <div class="grid-col">
                             <h3 class="italic">Cliente:</h3>
                           </div>
                           <div class="grid-col">
                             <h4 class="italic">No es de tu cartera </h4>
                           </div>
+                          <div class="grid-col">
+                            <h3>Último contacto:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h3>05/12/2015</h3>
+                          </div>
                         </div>
-                        <p class="hide-md hide-lg">Último contacto: 05/12/2015</p>
+                        <div class="grid-img hide-md hide-lg">
+                          <div class="grid-col"></div>
+                          <div class="grid-col"><img class="icon-search cliente1" src="assets/icons/ic_Ver.svg"/><span>Ver</span></div>
+                          <div class="grid-col"></div>
+                        </div>
                       </td>
                       <td class="hide-sm">
-                        <div class="grid-container">
+                        <div class="grid-container_left">
                           <div class="grid-col">
                             <h3>Asesor:</h3>
                           </div>
@@ -119,25 +142,111 @@
                           <div class="grid-col">
                             <h4>Patricio Fernández </h4>
                           </div>
+                        </div>
+                      </td>
+                      <td class="hide-sm">
+                        <div class="grid-container_right">
                           <div class="grid-col">
                             <h3 class="italic">Cliente:</h3>
                           </div>
                           <div class="grid-col">
                             <h4 class="italic">No es de tu cartera </h4>
                           </div>
+                          <div class="grid-col">
+                            <h3>Último contacto:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h3>05/12/2015</h3>
+                          </div>
                         </div>
-                        <p>Último contacto: 05/12/2015</p>
                       </td>
-                      <td class="hide-sm"></td>
-                      <td><img class="icon-search" src="assets/icons/icon-chevron.svg" id="cliente1"/></td>
+                      <td class="hide-sm center"> </td>
+                      <td class="hide-sm center"> <img class="cliente1 icon-search" src="assets/icons/ic_Ver.svg"/></td>
+                      <td class="hide-sm center"> </td>
                     </tr>
                     <tr>
-                      <td><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                      <td>
+                        <div class="user-info">
+                          <h5>12.345.678-9</h5>
+                          <h6>Fernando Errázuriz Peña </h6>
+                        </div>
+                        <div class="grid-container_left hide-md hide-lg">
+                          <div class="grid-col">
+                            <h3>Asesor:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4> Pedro López Rivera</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>GA:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Patricio Fernández </h4>
+                          </div>
+                        </div>
+                        <div class="grid-container_right hide-md hide-lg">
+                          <div class="grid-col">
+                            <h3 class="italic">Cliente:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4 class="italic">Es de tu cartera </h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>Último contacto:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h3>05/12/2015</h3>
+                          </div>
+                        </div>
+                        <div class="grid-img hide-md hide-lg">
+                          <div class="grid-col"><a><img class="icon-search" src="assets/icons/ic_BajarPDF.svg"/><span>Bajar PDF</span></a></div>
+                          <div class="grid-col"><img class="icon-search cliente2" src="assets/icons/ic_Ver.svg"/><span>Ver</span></div>
+                          <div class="grid-col"><a data-toggle="modal" data-target="#modalHome"><img class="icon-search" src="assets/icons/ic_Editar.svg"/><span>Editar</span></a></div>
+                        </div>
+                      </td>
+                      <td class="hide-sm">
+                        <div class="grid-container_left">
+                          <div class="grid-col">
+                            <h3>Asesor:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4> Pedro López Rivera</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>GA:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4>Patricio Fernández </h4>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="hide-sm">
+                        <div class="grid-container_right">
+                          <div class="grid-col">
+                            <h3 class="italic">Cliente:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4 class="italic">Es de tu cartera</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>Último contacto:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h3>05/12/2015</h3>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="hide-sm center"> <a><img class="icon-search" src="assets/icons/ic_BajarPDF.svg"/></a></td>
+                      <td class="hide-sm center"> <img class="icon-search cliente2" src="assets/icons/ic_Ver.svg"/></td>
+                      <td class="hide-sm center"> <a data-toggle="modal" data-target="#modalHome"><img class="icon-search" src="assets/icons/ic_Editar.svg"/></a></td>
+                    </tr>
+                    <tr>
+                      <td>
                         <div class="user-info">
                           <h5>12.345.678-9</h5>
                           <h6>Carlos Errázuriz Peña </h6>
                         </div>
-                        <div class="grid-container hide-md hide-lg">
+                        <div class="grid-container_left hide-md hide-lg">
                           <div class="grid-col">
                             <h3>Asesor:</h3>
                           </div>
@@ -151,10 +260,28 @@
                             <h4>Patricio Fernández </h4>
                           </div>
                         </div>
-                        <p class="hide-md hide-lg">Último contacto: 05/12/2015</p>
+                        <div class="grid-container_right hide-md hide-lg">
+                          <div class="grid-col">
+                            <h3 class="italic">Cliente:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4 class="italic">Prospecto</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>Último contacto:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h3>05/12/2015</h3>
+                          </div>
+                        </div>
+                        <div class="grid-img hide-md hide-lg">
+                          <div class="grid-col"><a><img class="icon-search" src="assets/icons/ic_BajarPDF.svg"/><span>Bajar PDF</span></a></div>
+                          <div class="grid-col"><img class="icon-search" src="assets/icons/ic_Ver.svg" id="cliente3"/><span>Ver</span></div>
+                          <div class="grid-col"><a data-toggle="modal" data-target="#modalHome"><img class="icon-search" src="assets/icons/ic_Editar.svg"/><span>Editar</span></a></div>
+                        </div>
                       </td>
                       <td class="hide-sm">
-                        <div class="grid-container">
+                        <div class="grid-container_left">
                           <div class="grid-col">
                             <h3>Asesor:</h3>
                           </div>
@@ -168,22 +295,38 @@
                             <h4>Patricio Fernández </h4>
                           </div>
                         </div>
-                        <p>Último contacto: 05/12/2015</p>
                       </td>
-                      <td class="hide-sm"><a href="antecedentes-clientes.html"><span>Editar ADN</span><img class="icon-edit" src="assets/icons/icon-chevron.svg"/></a></td>
-                      <td> <img class="icon-search" src="assets/icons/icon-chevron.svg" id="cliente2"/></td>
+                      <td class="hide-sm">
+                        <div class="grid-container_right">
+                          <div class="grid-col">
+                            <h3 class="italic">Cliente:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h4 class="italic">Prospecto</h4>
+                          </div>
+                          <div class="grid-col">
+                            <h3>Último contacto:</h3>
+                          </div>
+                          <div class="grid-col">
+                            <h3>05/12/2015</h3>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="hide-sm center"> <a><img class="icon-search" src="assets/icons/ic_BajarPDF.svg"/></a></td>
+                      <td class="hide-sm center"> <img class="icon-search" src="assets/icons/ic_Ver.svg" id="cliente3"/></td>
+                      <td class="hide-sm center"> <a data-toggle="modal" data-target="#modalHome"><img class="icon-search" src="assets/icons/ic_Editar.svg"/></a></td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-9 hide no-padding" id="info-cliente1">
+          <div class="col-12 col-sm-12 col-md-12 hide no-padding" id="info-cliente1">
             <div class="info-cliente-encontrado">
               <div class="row no-padding">
                 <div class="col-12 col-md-6 clientes">
                   <h2 class="titulo-principal">Cliente Metlife</h2>
-                  <div class="info-cliente"><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                  <div class="info-cliente">
                     <div class="user-info">
                       <h5>12.345.678-9</h5>
                       <h6>Isabel Margarita Errázuriz Peña</h6>
@@ -202,20 +345,18 @@
                         <h4>Patricio Fernández</h4>
                       </div>
                       <div class="grid-col">
+                        <h3>Último contacto:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h3>05/12/2015</h3>
+                      </div>
+                      <div class="grid-col">
                         <h3 class="italic">Cliente:</h3>
                       </div>
                       <div class="grid-col">
                         <h4 class="italic">No es de tu cartera </h4>
                       </div>
-                    </div>
-                    <p>Último contacto: 05/12/2015</p><a href="#"><span>Ver notas</span><svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<g id="0035_" transform="translate(-30.000000, -78.000000)" fill="#1697f3" fill-rule="nonzero">
-<g id="if_new-24_103173" transform="translate(30.000000, 78.000000)">
-<path d="M24.3868182,6.34163636 C23.8349091,5.42927273 23.1541818,4.53581818 22.321,3.70736364 C21.4783636,2.87063636 20.5695455,2.18518182 19.6394545,1.63445455 L21.2727273,0 C21.2727273,0 23.6363636,0 24.8181818,1.18181818 C26,2.36363636 26,4.72727273 26,4.72727273 L24.3868182,6.34163636 Z M10.6363636,20.0909091 L5.90909091,20.0909091 L5.90909091,15.3636364 L6.47636364,14.7963636 C7.43718182,15.2513636 8.39209091,15.8907273 9.25127273,16.7487273 C10.1116364,17.6102727 10.7498182,18.5628182 11.2036364,19.5236364 L10.6363636,20.0909091 Z M23.0218182,7.70545455 L12.5674545,18.1586364 C12.0155455,17.2474545 11.3348182,16.3516364 10.5016364,15.5243636 C9.66018182,14.6864545 8.75018182,14.0021818 7.82009091,13.4514545 L18.2945455,2.97818182 C19.2553636,3.43081818 20.2102727,4.07018182 21.0694545,4.92936364 C21.931,5.78972727 22.5691818,6.74463636 23.0218182,7.70545455 Z M3.54545455,3.54545455 L3.54545455,22.4545455 L22.4545455,22.4545455 L22.4545455,14.1818182 L26,10.5914545 L26,23.6363636 C26,24.9422727 24.9410909,26 23.6363636,26 L2.36363636,26 C1.05890909,26 0,24.9422727 0,23.6363636 L0,2.36363636 C0,1.05890909 1.05890909,0 2.36363636,0 L15.3754545,0 L11.8288182,3.54545455 L3.54545455,3.54545455 Z" id="Shape"></path>
-</g>
-</g>
-</g></a></svg>
+                    </div><a href="javascript:void(0)"><img src="assets/icons/ic_Ver.svg"/><span>Ver </span></a><a href="javascript:void(0)"><img src="assets/icons/ic_notas.svg"/><span>Notas</span></a>
                   </div>
                   <div class="info-ahorro">
                     <h2>Total de prima mensual a ahorrar</h2>
@@ -296,7 +437,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="accordion__content">
+                      <div class="accordion__content" style="display: block;">
                         <div class="deglose-mundo bgs-purple">
                           <div class="row">
                             <div class="col-4 col-sm-5">
@@ -317,12 +458,12 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-9 hide no-padding" id="info-cliente2">
+          <div class="col-12 col-sm-12 col-md-12 hide no-padding" id="info-cliente2">
             <div class="info-cliente-encontrado">
               <div class="row no-padding">
                 <div class="col-12 col-sm-6 clientes">
                   <h2 class="titulo-principal">Cliente Metlife</h2>
-                  <div class="info-cliente"><img class="icon-search" src="assets/icons/icon-user.svg"/>
+                  <div class="info-cliente">
                     <div class="user-info">
                       <h5>09.345.678-9</h5>
                       <h6>Carlos Errázuriz Peña</h6>
@@ -340,21 +481,19 @@
                       <div class="grid-col">
                         <h4>Patricio Fernández Palma</h4>
                       </div>
+                      <div class="grid-col">
+                        <h3>Último contacto:</h3>
+                      </div>
+                      <div class="grid-col">
+                        <h3>10/03/2017</h3>
+                      </div>
                       <div class="grid-col hide">
                         <h3 class="italic">Cliente:</h3>
                       </div>
                       <div class="grid-col hide">
                         <h4 class="italic">No es de tu cartera </h4>
                       </div>
-                    </div>
-                    <p>Último contacto: 10/03/2017</p><a href="#"><span>Ver notas</span><svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-<g id="0035_" transform="translate(-30.000000, -78.000000)" fill="#1697f3" fill-rule="nonzero">
-<g id="if_new-24_103173" transform="translate(30.000000, 78.000000)">
-<path d="M24.3868182,6.34163636 C23.8349091,5.42927273 23.1541818,4.53581818 22.321,3.70736364 C21.4783636,2.87063636 20.5695455,2.18518182 19.6394545,1.63445455 L21.2727273,0 C21.2727273,0 23.6363636,0 24.8181818,1.18181818 C26,2.36363636 26,4.72727273 26,4.72727273 L24.3868182,6.34163636 Z M10.6363636,20.0909091 L5.90909091,20.0909091 L5.90909091,15.3636364 L6.47636364,14.7963636 C7.43718182,15.2513636 8.39209091,15.8907273 9.25127273,16.7487273 C10.1116364,17.6102727 10.7498182,18.5628182 11.2036364,19.5236364 L10.6363636,20.0909091 Z M23.0218182,7.70545455 L12.5674545,18.1586364 C12.0155455,17.2474545 11.3348182,16.3516364 10.5016364,15.5243636 C9.66018182,14.6864545 8.75018182,14.0021818 7.82009091,13.4514545 L18.2945455,2.97818182 C19.2553636,3.43081818 20.2102727,4.07018182 21.0694545,4.92936364 C21.931,5.78972727 22.5691818,6.74463636 23.0218182,7.70545455 Z M3.54545455,3.54545455 L3.54545455,22.4545455 L22.4545455,22.4545455 L22.4545455,14.1818182 L26,10.5914545 L26,23.6363636 C26,24.9422727 24.9410909,26 23.6363636,26 L2.36363636,26 C1.05890909,26 0,24.9422727 0,23.6363636 L0,2.36363636 C0,1.05890909 1.05890909,0 2.36363636,0 L15.3754545,0 L11.8288182,3.54545455 L3.54545455,3.54545455 Z" id="Shape"></path>
-</g>
-</g>
-</g></a></svg>
+                    </div><a href="javascript:void(0)"><img src="assets/icons/ic_Ver.svg"/><span>Ver </span></a><a href="javascript:void(0)"><img src="assets/icons/ic_notas.svg"/><span>Notas</span></a>
                   </div>
                   <div class="info-ahorro">
                     <h2>Suma objetivos de ahorro</h2>
@@ -435,7 +574,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="accordion__content">
+                      <div class="accordion__content" style="display: block;">
                         <div class="deglose-mundo bgs-green">
                           <div class="row">
                             <div class="col-4 col-sm-5">
@@ -461,7 +600,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="accordion__content">
+                      <div class="accordion__content" style="display: block;">
                         <div class="deglose-mundo bgs-yellow">
                           <div class="row">
                             <div class="col-4 col-sm-5">
@@ -476,7 +615,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="accordion__content">
+                      <div class="accordion__content" style="display: block;">
                         <div class="deglose-mundo bgs-yellow">
                           <div class="row">
                             <div class="col-4 col-sm-5">
@@ -500,16 +639,38 @@
         </div>
       </div>
     </div>
-    <footer>
-      <div class="wrap-container footer-brand">
-        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/></div>
-        <div class="footer-social">
-          <p>Siguenos</p><img src="assets/icons/icon-facebook.svg" alt=""/><img src="assets/icons/icon-twitter.svg" alt=""/>
+    <div class="modal modal-tabla modal-tabla__notas fade" id="modalHome" tabindex="-1" role="dialog" aria-labelledby="modalNotasLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <h5>Actualizar datos del ADN</h5>
+          <h6>Ten en cuenta que...</h6>
+          <div class="btn-area center-double center btn-area-double"> <a class="btn-blue_outline" href="#" data-dismiss="modal">CANCELAR</a><a class="btn-perfil-desk_step1 btn-blue" href="antecedentes-clientes.html" disable="disable">CONTINUAR</a></div>
         </div>
       </div>
-      <div class="footer-legal">
-        <div class="wrap-container">
-          <p>Agustinas 640, Santiago, Chile    Compañías MetLife</p>
+    </div>
+    <footer>
+      <div class="wrap-container footer-brand hide-md hide-lg">
+        <div class="footer-img">
+          <div class="row">
+            <div class="col-9"><img src="assets/imgs/logo-footer.png" alt=""/></div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+        <div class="footer-number-mo">
+          <p>600 390 3000</p>
+        </div>
+        <div class="footer-legal">
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. </p>
+          <p>Desde teléfonos celulares o desde el extranjero al </p>
+          <p><span>+56 2 2826 47 90</span></p>
+        </div>
+      </div>
+      <div class="wrap-container footer-brand hide-sm">
+        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/>
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. Desde eléfonos celulares o desde el extranjero al <span>+56 2 2826 47 90</span></p>
+        </div>
+        <div class="footer-number">
+          <p>600 390 3000</p>
         </div>
       </div>
     </footer>
@@ -521,6 +682,6 @@
     <script src="js/libs/progress_tracker.js"></script>
     <script src="js/libs/step-form-wizard.js"></script>
     <script src="js/libs/acordeon.js"></script>
-    <script src="js/funciones.js"></script>
+    <script src="js/funciones-home.js"></script>
   </body>
 </html>

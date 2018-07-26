@@ -17,7 +17,7 @@
     <div class="main-container">
       <div class="row">
         <div class="col-6">
-          <div class="link-area"><a href="#"><img src="assets/icons/icon-educacion.svg" alt=""/>
+          <div class="link-area"><a href="javascript:void(0)"><img src="assets/icons/icon-educacion.svg" alt=""/>
               <p>Link area</p></a></div>
         </div>
         <div class="col-6">
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="col-6">
-          <div class="iptnum-area"><span>$</span>
+          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
             <input type="text"/>
           </div>
         </div>
@@ -67,7 +67,7 @@
         </div>
         <div class="col-6">
           <div class="iptrut-area">
-            <input class="rut" type="text" name="" placeholder="RUT*"/><span>-</span>
+            <input class="rut" type="text" name="" placeholder="RUT*"/><span class="guion">-</span>
             <input class="dv" type="text" name=""/>
           </div>
         </div>
@@ -100,7 +100,7 @@
                 <th scope="row" width="5%">1</th>
                 <td width="50%">Monto objetivo</td>
                 <td width="40%">
-                  <div class="iptnum-area"><span>$</span>
+                  <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                     <input type="text"/>
                   </div>
                 </td>
@@ -126,7 +126,7 @@
                 <th scope="row" width="5%">3</th>
                 <td width="50%">Monto ahorrado en otra institución</td>
                 <td width="40%">
-                  <div class="iptnum-area"><span>$</span>
+                  <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                     <input type="text"/>
                   </div>
                 </td>
@@ -135,7 +135,7 @@
                 <th scope="row" width="5%">3</th>
                 <td width="50%">Necesidad de ahorro</td>
                 <td width="40%">   
-                  <div class="iptnum-area"><span>$</span>
+                  <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                     <input type="text"/>
                   </div>
                 </td>
@@ -144,7 +144,7 @@
                 <th scope="row" width="5%">3</th>
                 <td width="50%">Factor 2</td>
                 <td width="40%">
-                  <div class="iptnum-area"><span>$</span>
+                  <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                     <input type="text"/>
                   </div>
                 </td>
@@ -386,7 +386,7 @@
             <div class="arrow_box">HOLA</div>
           </div>
         </div>
-        <div class="col-6"><a class="btn-search" href="home.html"><img src="assets/icons/icon-search.svg" alt=""/></a><a class="btn-blue" href="#">CALCULAR</a><a class="btn-blue_outline" href="#">GRABAR</a><a class="btn-rounded" href=""></a></div>
+        <div class="col-6"><a class="btn-search" href="home.html"><img src="assets/icons/icon-search.svg" alt=""/></a><a class="btn-blue" href="javascript:void(0)">CALCULAR</a><a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a><a class="btn-rounded" href=""></a></div>
         <div class="col-6">
           <div class="tab-tablas">
             <ul class="nav nav-tabs" role="navigation">
@@ -406,7 +406,7 @@
                         <th scope="row" width="5%">1</th>
                         <td width="50%">Monto objetivo</td>
                         <td width="40%">
-                          <div class="iptnum-area"><span>$</span>
+                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                             <input type="text"/>
                           </div>
                         </td>
@@ -432,7 +432,7 @@
                         <th scope="row" width="5%">3</th>
                         <td width="50%">Monto ahorrado en otra institución</td>
                         <td width="40%">
-                          <div class="iptnum-area"><span>$</span>
+                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                             <input type="text"/>
                           </div>
                         </td>
@@ -441,7 +441,7 @@
                         <th scope="row" width="5%">3</th>
                         <td width="50%">Necesidad de ahorro</td>
                         <td width="40%">   
-                          <div class="iptnum-area"><span>$</span>
+                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                             <input type="text"/>
                           </div>
                         </td>
@@ -450,7 +450,7 @@
                         <th scope="row" width="5%">3</th>
                         <td width="50%">Factor 2</td>
                         <td width="40%">
-                          <div class="iptnum-area"><span>$</span>
+                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                             <input type="text"/>
                           </div>
                         </td>
@@ -571,174 +571,29 @@
         </div>
       </div>
     </form>
-    <div class="sub-footer hide-lg hide-md">
-      <button class="btn-rounded" type="button" data-toggle="modal" data-target="#modalNotas"></button>
-      <!-- Modal-->
-      <div class="modal modal-tabla modal-tabla__notas fade" id="modalNotas" tabindex="-1" role="dialog" aria-labelledby="modalNotasLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header"><img class="icon-note" src="assets/icons/icon-notas.svg" alt=""/>
-              <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-lg-9 col-md-9">
-                  <textarea name="" cols="30" rows="10" placeholder="Ingrese texto"></textarea>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                  <div class="btn-area">
-                    <button class="btn-blue" type="button">GRABAR</button>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="container-fluid filtros-notas"><span>Ver todo</span>
-                  <div class="checkbox-area">
-                    <label class="form-check-label" for="checkDepen1"> 
-                      <input class="form-check-input" type="checkbox" name="cbxDep" id="checkDepen1"/><span class="checkmark"></span>
-                    </label>
-                  </div><span>|</span><span>Por tema</span>
-                  <div class="themes-choices">
-                    <div class="item item__green"></div>
-                    <div class="item item__yellow"></div>
-                    <div class="item item__purple"></div>
-                    <div class="item item__red"></div>
-                  </div><span>| </span><span>Por fecha</span>
-                  <div class="datepicker-area">
-                    <input class="datepicker2" type="text" autocomplete="off" placeholder="DD/MM/AAAA"/>
-                  </div><span>|</span><span>Por visitas</span>
-                  <div class="iptselect-area">
-                    <select name="">
-                      <option value="1">Seleccione</option>
-                      <option value="1">opcion1</option>
-                      <option value="1">opcion1</option>
-                      <option value="1">opcion1</option>
-                      <option value="1">opcion1</option>
-                      <option value="1">opcion1</option>
-                      <option value="1">opcion1</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="container-fluid">
-                  <div class="accordion accordion__notas" data-faq="most_common">
-                    <div class="border-top accordion-item accordion-item__green">
-                      <div class="accordion__title"><span class="brand-1st">Protección y Salud</span></div>
-                      <div class="accordion__content">
-                        <table class="table-notas">
-                          <tbody> 
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                    <div class="border-top accordion-item accordion-item__yellow">
-                      <div class="accordion__title"><span class="progres brand-1st">Educación</span></div>
-                      <div class="accordion__content">
-                        <table class="table-notas">
-                          <tbody> 
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                    <div class="border-top accordion-item accordion-item__purple">
-                      <div class="accordion__title"><span class="progres brand-1st">Grandes Proyectos</span></div>
-                      <div class="accordion__content">
-                        <table class="table-notas">
-                          <tbody> 
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                    <div class="border-top accordion-item accordion-item__red">
-                      <div class="accordion__title"><span class="progres brand-1st">Jubilación</span></div>
-                      <div class="accordion__content">
-                        <table class="table-notas">
-                          <tbody> 
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                            <tr>
-                              <td><span class="circle-item"> </span><span>20/07/2017</span></td>
-                              <td>Va a tener un hijo en 6 meses</td>
-                              <td>Asesor: Rodrigo Santiesteban</td>
-                              <td>GA: Felipe Godoy</td>
-                              <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-area center">
-                <button class="btn-blue" type="button" data-dismiss="modal">CERRAR</button>
-              </div>
-            </div>
+    <footer>
+      <div class="wrap-container footer-brand hide-md hide-lg">
+        <div class="footer-img">
+          <div class="row">
+            <div class="col-9"><img src="assets/imgs/logo-footer.png" alt=""/></div>
+            <div class="col-3"></div>
           </div>
         </div>
-      </div>
-    </div>
-    <footer>
-      <div class="wrap-container footer-brand">
-        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/></div>
-        <div class="footer-social">
-          <p>Síguenos</p><img src="assets/icons/icon-facebook.svg" alt=""/><img src="assets/icons/icon-twitter.svg" alt=""/>
+        <div class="footer-number-mo">
+          <p>600 390 3000</p>
+        </div>
+        <div class="footer-legal">
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. </p>
+          <p>Desde teléfonos celulares o desde el extranjero al </p>
+          <p><span>+56 2 2826 47 90</span></p>
         </div>
       </div>
-      <div class="footer-legal">
-        <div class="wrap-container">
-          <p>Agustinas 640, Santiago, Chile    Compañías MetLife</p>
+      <div class="wrap-container footer-brand hide-sm">
+        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/>
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. Desde eléfonos celulares o desde el extranjero al <span>+56 2 2826 47 90</span></p>
+        </div>
+        <div class="footer-number">
+          <p>600 390 3000</p>
         </div>
       </div>
     </footer>

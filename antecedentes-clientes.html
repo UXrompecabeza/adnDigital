@@ -34,7 +34,7 @@
     <div class="row">
       <div class="hide-lg full-box header-hide"> 
         <header>
-          <div class="box-lupa hide-lg"><img src="assets/icons/icon-search-black.svg" alt=""/></div>
+          <div class="box-lupa hide-lg"><a href="home.html"><img src="assets/icons/icon-search-black.svg" alt=""/></a></div>
           <div class="box-adn">
             <p>ADN</p>
           </div>
@@ -59,19 +59,20 @@
             <ul class="nav nav-tabs nav-tabs--vertical nav-tabs--left" role="navigation">
               <li class="botonera-tab-menu bg-brand nav-item reduce"><a class="active" href="antecedentes-clientes.html">
                   <p><span class="hide-md hide-sm">Antecedentes </span>Cliente</p></a></li>
-              <li class="botonera-tab-menu bg-brand nav-item"><a href="perfil-inversionista.html">
+              <li class="botonera-tab-menu bg-brand nav-item item-disable-mo"> <a href="perfil-inversionista.html">
                   <p>Perfil<span class="hide-lg hide-md"><br></span> Invers<span class="hide-lg hide-md">.<br></span><span class="hide-md hide-sm">ionista</span></p></a></li>
-              <li class="botonera-tab-menu icon-btn bg-green nav-item item-disable"><a href="proteccion-salud.html"><img src="assets/icons/icon-saludproteccion.svg" alt=""/>
+              <li class="botonera-tab-menu icon-btn bg-green nav-item"><a href="proteccion-salud.html"><img src="assets/icons/icon-saludproteccion.svg" alt=""/>
                   <p class="hide-md hide-sm">Protección y Salud</p></a></li>
-              <li class="botonera-tab-menu icon-btn bg-yellow nav-item item-disable"> <a href="educacion.html"><img src="assets/icons/icon-educacion.svg" alt=""/>
-                  <p class="hide-md hide-sm">Educación</p></a></li>
-              <li class="botonera-tab-menu icon-btn bg-purple nav-item item-disable"> <a href="grandes-proyectos.html"><img src="assets/icons/icon-grandesproyectos.svg" alt=""/>
-                  <p class="hide-md hide-sm">Grandes Proyectos</p></a></li>
               <li class="botonera-tab-menu icon-btn bg-pink nav-item item-disable"> <a href="jubilacion.html"><img src="assets/icons/icon-jubilacion.svg" alt=""/>
                   <p class="hide-md hide-sm">Jubilación</p></a></li>
-              <li class="botonera-tab-menu bg-brand nav-item item-disable"> <a href="totales.html">
-                  <p>Totales</p></a></li>
-              <li class="botonera-tab-menu nav-item search_button hide-sm hide-md"> <a class="btn-search" href="home.html"><img src="assets/icons/icon-search.svg" alt=""/></a></li>
+              <li class="botonera-tab-menu icon-btn bg-purple nav-item item-disable"> <a href="grandes-proyectos.html"><img src="assets/icons/icon-grandesproyectos.svg" alt=""/>
+                  <p class="hide-md hide-sm">Grandes Proyectos</p></a></li>
+              <li class="botonera-tab-menu icon-btn bg-yellow nav-item item-disable"> <a href="educacion.html"><img src="assets/icons/icon-educacion.svg" alt=""/>
+                  <p class="hide-md hide-sm">Educación</p></a></li>
+              <li class="botonera-tab-menu bg-brand nav-item item-disable-mo"> <a href="totales.html">
+                  <p>Plan de <span class="hide-sm">Protección</span><span class="hide-md hide-lg">Protecc.</span></p></a></li>
+              <li class="botonera-tab-menu nav-item search_button hide-sm hide-md"> <a class="btn-search" href="home.html"><img src="assets/icons/ic_search.svg" alt=""/>
+                  <p>Buscar ADN</p></a></li>
             </ul>
           </div>
         </div>
@@ -79,7 +80,7 @@
       <div class="col-lg-9 col-sm-12 no-padding">
         <div class="hide-sm hide-md"> 
           <header>
-            <div class="box-lupa hide-lg"><img src="assets/icons/icon-search-black.svg" alt=""/></div>
+            <div class="box-lupa hide-lg"><a href="home.html"><img src="assets/icons/icon-search-black.svg" alt=""/></a></div>
             <div class="box-adn">
               <p>ADN</p>
             </div>
@@ -93,284 +94,240 @@
             <div class="dashboard-tab">
               <div class="dashboard-nav bg-brand">
                 <h2>Antecedentes Cliente</h2>
-                <div class="dashboard-modal brand-arrow_cliente"><a type="button" data-toggle="modal" data-target="#modalTablaAntecedentes">
-                    <svg width="15px" height="16px" viewbox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                      <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch-->
-                      <title>ic_+</title>    
-                      <desc>Created with Sketch.</desc>    
-                      <defs></defs>    
-                      <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="006_Dskt" transform="translate(-1180.000000, -560.000000)" fill="#0061A0">
-                          <g id="información-comercial" transform="translate(319.000000, 556.000000)">
-                            <g id="acordeon-2-close" transform="translate(0.000000, 4.000000)">
-                              <g id="ic_+" transform="translate(861.000000, 0.000000)">
-                                <rect id="Rectangle-8" x="0" y="6" width="15" height="4"></rect>                        
-                                <rect id="Rectangle-8" transform="translate(7.500000, 8.000000) rotate(90.000000) translate(-7.500000, -8.000000) " x="0" y="6" width="15" height="4"></rect>
-                              </g>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </svg></a>
-                  <div class="modal-tabla modal-tabla__blue modal fade" id="modalTablaAntecedentes" tabindex="-1" role="dialog" aria-labelledby="modalTablasLabel" aria-hidden="true">
+              </div>
+              <div class="dashboard-tab_content">
+                <div class="content">
+                  <div class="modal modal-tabla modal-tabla__notas fade" id="modalNotas" tabindex="-1" role="dialog" aria-labelledby="modalNotasLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                       <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Aranceles Clínicas 2018</h5>
+                        <div class="modal-header"><img class="icon-note" src="assets/icons/ic_notas.svg" alt=""/>
+                          <h5 class="modal-title" id="exampleModalLabel">Ingresar Notas</h5>
                           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                         </div>
                         <div class="modal-body">
                           <div class="row">
+                            <div class="col-12">
+                              <textarea name="" cols="30" rows="10" placeholder="Ingrese texto"></textarea>
+                            </div>
+                            <div class="col-12">
+                              <div class="btn-area">
+                                <button class="btn-blue" type="button">GRABAR</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="container-fluid filtros-notas"><span>Ver todo</span>
+                              <div class="checkbox-area">
+                                <label class="form-check-label" for="checkDepen1"> 
+                                  <input class="form-check-input" type="checkbox" name="cbxDep" id="checkDepen1" checked="checked"/><span class="checkmark"></span>
+                                </label>
+                              </div><span>|</span><span>Ver por mes</span>
+                              <div class="iptselect-area">
+                                <select name="">
+                                  <option value="1">Julio</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
                             <div class="container-fluid">
-                              <h3 class="modal-title-nav">Valores Referenciales</h3>
-                            </div>
-                            <div class="col-lg-4">
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-                            <div class="col-lg-4">
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-                            <div class="col-lg-4">
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td colspan="4">DIA CAMA HOSPITALIZACION  OBST.Y GINEC. ESPECIAL</td>
-                                  </tr>
-                                  <tr>
-                                    <td>CLÍNICA</td>
-                                    <td>PARTICULAR</td>
-                                    <td>FONASA</td>
-                                    <td>ISAPRE</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Las Condes</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Alemana</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Clínica Santa María</td>
-                                    <td>32 UF</td>
-                                    <td>36 UF</td>
-                                    <td>30 UF</td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                              <div class="accordion accordion__notas" data-faq="most_common">
+                                <div class="border-top accordion-item accordion-item__green">
+                                  <div class="accordion__title"><span class="brand-1st">Protección y Salud</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__yellow">
+                                  <div class="accordion__title"><span class="progres brand-1st">Educación</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__purple">
+                                  <div class="accordion__title"><span class="progres brand-1st">Grandes Proyectos</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__red">
+                                  <div class="accordion__title"><span class="progres brand-1st">Jubilación</span></div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead>
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td><span class="circle-item"> </span><span>20/07/2017</span></td>
+                                          <td>Va a tener un hijo en 6 meses</td>
+                                          <td>Rodrigo Santiesteban</td>
+                                          <td>Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="modal-footer">
-                          <div class="btn-area">
-                            <button class="btn-blue" type="button" data-dismiss="modal">Cerrar</button>
-                          </div>
-                          <p class="txt-legal">FUENTE: clinicasantamaria.cl  |  alemana.cl  |  clinicalascondes.cl</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="dashboard-tab_content">
-                <div class="content">
+                  <div class="notas-container">
+                    <button class="btn-rounded" type="button" data-toggle="modal" data-target="#modalNotas"></button>
+                  </div>
                   <div class="cliente-desk hide-sm">
                     <div class="accordion" data-faq="most_common">
-                      <div class="accordion__title"><span class="brand-1st">Contacto <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon_more.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon_less.svg" alt="ver más"/></div>
-                      <div class="accordion__content">
+                      <div class="accordion__title"><span class="brand-1st">Contacto <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon-arrow-bottom.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon-arrow-top.svg" alt="ver más"/></div>
+                      <div class="accordion__content" style="display: block;">
                         <div class="row accordion-row">
                           <div class="col-12">
-                            <div class="info-required"><span>Información obligatoria *</span></div>
+                            <div class="info-required"><span>Información obligatoria *</span></div><br/>
                           </div>
                           <div class="col-lg-4 col-md-4">
-                            <div class="iptrut-area required">
-                              <input class="input-number rut input-rut" id="rut1" type="text" name="" placeholder="RUT"/><span>-</span>
-                              <input class="input-dv dv" type="text" name=""/>
+                            <div class="input-group">
+                              <div class="has-float-label iptrut-area required">
+                                <input class="rut input-rut" id="rut1" type="text" name="" placeholder="*"/>
+                                <label for="rut1">RUT</label>
+                                <p class="guion">-</p>
+                                <input class="input-dv dv" type="text" name=""/>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4">       
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area required">
+                                <input class="input-text" id="ac-name" type="text" placeholder="*"/>
+                                <label for="ac-name">Nombre completo</label>
+                              </div>
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area required">
-                              <input type="text" name="" placeholder="Nombre Completo"/>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area required">
-                              <input type="text" name="" placeholder="Apellidos"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area required">
+                                <input class="input-text" id="ac-lastname" type="text" placeholder="*"/>
+                                <label for="ac-lastname">Apellidos</label>
+                              </div>
                             </div>
                           </div>
                         </div>
-                        <div class="row accordion-row">
+                        <div class="row accordion-row__label">
                           <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area">
-                              <input class="input-cel input-number" type="tel" name="" placeholder="Celular (9 9XXX XXXXX)"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-cel input-number" id="ac-cel" type="tel" placeholder="*"/>
+                                <label for="ac-cel">Celular (9 9XXX XXXXX)</label>
+                              </div>
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Email"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input id="ac-email" type="text" placeholder="*"/>
+                                <label for="ac-email">Email</label>
+                              </div>
                             </div>
                           </div>
                         </div>
                         <div class="row accordion-row">
                           <div class="container-fluid"> 
-                            <h2 class="accordion__subtitle">Datos básicos<a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></h2>
+                            <h2 class="accordion__subtitle">Datos Básicos<a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></h2>
                           </div>
                         </div>
                         <div class="row accordion-row">
@@ -393,14 +350,14 @@
                           </div>
                           <div class="col-lg-4 col-md-4">
                             <div class="iptdate-area required required__label">
-                              <p class="label-area">Fecha de Nacimiento</p>
+                              <p class="label-area">Fecha de nacimiento</p>
                               <input class="input-number date-input input-dia" type="text" name="" placeholder="DD"/><span>-</span>
                               <input class="input-number date-input input-mes" type="text" name="" placeholder="MM"/><span>-</span>
                               <input class="input-number date-input__anno input-anno" type="text" name="" placeholder="AAAA"/>
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4">
-                            <div class="iptselect-area iptselect-area-alter">
+                            <div class="iptselect-area exc-select">
                               <select name="">
                                 <option value="1">Estado civil</option>
                                 <option value="1">opcion1</option>
@@ -413,20 +370,29 @@
                             </div>
                           </div>
                         </div>
-                        <div class="row accordion-row">
+                        <div class="row accordion-row__label">
                           <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area required">
-                              <input type="text" name="" placeholder="Ocupación"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area required">
+                                <input class="input-text" id="ac-ocupacion" type="text" placeholder="*"/>
+                                <label for="ac-ocupacion">Ocupación</label>
+                              </div>
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Profesión"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-text" id="ac-profesion" type="text" placeholder="*"/>
+                                <label for="ac-profesion">Profesión</label>
+                              </div>
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4">
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Hobbies"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-text" id="ac-hobbies" type="text" placeholder="*"/>
+                                <label for="ac-hobbies">Hobbies</label>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -482,26 +448,25 @@
                             </div>
                           </div>
                         </div>
+                        <div class="btn-area-double-top center"> <a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a></div>
                       </div>
                       <div class="border-top">
-                        <div class="accordion__title"><span class="progres brand-1st">Información Comercial<a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon_more.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon_less.svg" alt="ver más"/></div>
+                        <div class="accordion__title"><span class="progres brand-1st">Información Comercial<a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon-arrow-bottom.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon-arrow-top.svg" alt="ver más"/></div>
                         <div class="accordion__content">
                           <div class="row accordion-row">
                             <div class="col-12">
                               <div class="info-required"><span>Información obligatoria *</span></div>
                             </div>
                             <div class="col-lg-4 col-md-4">
-                              <div class="ipttxt-area">
-                                <input class="input-cel input-number" type="tel" name="" placeholder="Teléfono (2 2XXX XXXX)"/>
+                              <div class="input-group">
+                                <div class="has-float-label ipttxt-area">
+                                  <input class="input-cel input-number" id="ac-cel-2" type="tel" placeholder="*"/>
+                                  <label for="ac-cel-2">Teléfono (2 2XXX XXXX)</label>
+                                </div>
                               </div>
                             </div>
                             <div class="col-lg-4 col-md-4">
-                              <div class="ipttxt-area">
-                                <input type="text" name="" placeholder="Email"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptselect-area">
+                              <div class="iptselect-area exc-select">
                                 <select name="">
                                   <option value="1">Región</option>
                                   <option value="1">opcion1</option>
@@ -513,15 +478,8 @@
                                 </select>
                               </div>
                             </div>
-                          </div>
-                          <div class="row accordion-row">
-                            <div class="col-lg-8 col-md-8">
-                              <div class="ipttxt-area">
-                                <input type="text" name="" placeholder="Dirección"/>
-                              </div>
-                            </div>
                             <div class="col-lg-4 col-md-4">
-                              <div class="iptselect-area">
+                              <div class="iptselect-area exc-select">
                                 <select name="">
                                   <option value="1">Comuna</option>
                                   <option value="1">opcion1</option>
@@ -534,65 +492,76 @@
                               </div>
                             </div>
                           </div>
+                          <div class="row accordion-row__label">
+                            <div class="col-lg-8 col-md-8">
+                              <div class="input-group">
+                                <div class="has-float-label ipttxt-area">
+                                  <input id="ac-direccion" type="text" placeholder="*"/>
+                                  <label for="ac-direccion">Dirección</label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                              <div class="input-group">
+                                <div class="has-float-label ipttxt-area">
+                                  <input id="ac-email" type="text" placeholder="*"/>
+                                  <label for="ac-email">Email</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                           <div class="row accordion-row">
                             <div class="container-fluid"> 
                               <h2 class="accordion__subtitle">Remuneración<a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></h2>
                             </div>
                           </div>
                           <div class="row accordion-row">
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptnum-area required required__label">
-                                <p class="label-area">Ingreso mensual líquido</p><span>$</span>
-                                <input class="input-number" type="text" name=""/>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="input-group">
+                                <div class="has-float-label iptnum-area required required__label"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                  <input class="input-number" id="ac-i1" type="text" placeholder="*"/>
+                                  <label class="input-rem" for="ac-i1">Ingreso mensual líquido</label>
+                                </div>
                               </div>
                             </div>
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptnum-area">
-                                <p class="label-area">Ingreso mensual del cónyuge</p><span>$</span>
-                                <input class="input-number" type="text" name=""/>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="input-group">
+                                <div class="has-float-label iptnum-area required required__label"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                  <input class="input-number" id="ac-i2" type="text" placeholder="*"/>
+                                  <label class="input-rem" for="ac-i2">Ingreso mensual del cónyuge</label>
+                                </div>
                               </div>
                             </div>
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptnum-area">
-                                <p class="label-area">Gasto mensual familiar</p><span>$</span>
-                                <input class="input-number" type="text" name=""/>
+                            <div class="col-lg-6 col-md-6">
+                              <h2 class="accordion__subtitle">Gasto Mensual</h2>
+                              <div class="input-group">
+                                <div class="has-float-label iptnum-area required required__label accordion-row__label"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                  <input class="input-number" id="ac-i3" type="text" placeholder="*"/>
+                                  <label class="input-rem" for="ac-i3">Gasto mensual familiar</label>
+                                </div>
                               </div>
                             </div>
                           </div>
+                          <div class="btn-area-double-top center"> <a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a></div>
                         </div>
                       </div>
                       <div class="border-top">
-                        <div class="accordion__title"><span class="progres brand-1st">Dependientes <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon_more.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon_less.svg" alt="ver más"/></div>
+                        <div class="accordion__title"><span class="progres brand-1st">Dependientes <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon-arrow-bottom.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon-arrow-top.svg" alt="ver más"/></div>
                         <div class="accordion__content">
                           <div class="row accordion-row">
                             <div class="col-12">
-                              <div class="info-required exc_label"><span>Información obligatoria *</span></div>
+                              <div class="info-required"><span>Información obligatoria *</span></div>
                             </div>
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptrut-area required required__label">
-                                <p class="label-area"><span class="no-view">.</span></p>
-                                <input class="input-rut input-number rut" id="rut2" type="text" name="" placeholder="RUT" onkeyup="puntitos(this,this.value.charAt(this.value.length-1))"/><span>-</span>
-                                <input class="input-dv dv" type="text" name=""/>
+                            <div class="col-lg-7 col-md-7">
+                              <div class="input-group">
+                                <div class="has-float-label ipttxt-area">
+                                  <input class="input-text" id="ac-d-name" type="text" placeholder="*"/>
+                                  <label for="ac-d-name">Nombre completo</label>
+                                </div>
                               </div>
                             </div>
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptdate-area required required__label">
-                                <p class="label-area">Fecha de Nacimiento</p>
-                                <input class="input-dia date-input" type="text" name="" placeholder="DD"/><span>-</span>
-                                <input class="input-mes date-input" type="text" name="" placeholder="MM"/><span>-</span>
-                                <input class="input-anno date-input__anno" type="text" name="" placeholder="AAAA"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4"></div>
-                          </div>
-                          <div class="row accordion-row">
-                            <div class="col-lg-8 col-md-8">
-                              <div class="ipttxt-area">
-                                <input type="text" name="" placeholder="Nombre Completo"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                              <div class="iptselect-area">
+                            <div class="col-lg-5 col-md-5">
+                              <div class="iptselect-area_relacion exc-select">
                                 <select name="">
                                   <option value="1">Relación</option>
                                   <option value="1">opcion1</option>
@@ -603,7 +572,29 @@
                                   <option value="1">opcion1</option>
                                 </select>
                               </div>
+                              <div class="drop-dependiente"><img src="assets/icons/icon-trash-blue.svg"/></div>
                             </div>
+                          </div>
+                          <div class="row accordion-row__label">
+                            <div class="col-lg-4 col-md-4">
+                              <div class="input-group">
+                                <div class="has-float-label iptrut-area required iptselect-area-alter">
+                                  <input class="rut input-rut" id="rut3" type="text" name="" placeholder="*"/>
+                                  <label for="rut3">RUT</label>
+                                  <p class="guion">-</p>
+                                  <input class="input-dv dv" type="text" name=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                              <div class="iptdate-area required required__label">
+                                <p class="label-area">Fecha de Nacimiento</p>
+                                <input class="input-dia date-input input-number" type="text" name="" placeholder="DD"/><span>-</span>
+                                <input class="input-mes date-input input-number" type="text" name="" placeholder="MM"/><span>-</span>
+                                <input class="input-anno date-input__anno input-number" type="text" name="" placeholder="AAAA"/>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4"></div>
                           </div>
                           <div class="new-dependiente"></div>
                           <div class="row accordion-row">
@@ -612,10 +603,11 @@
                                   <p>Agregar dependiente</p></a></div>
                             </div>
                           </div>
+                          <div class="btn-area-double-top center"> <a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a></div>
                         </div>
                       </div>
                       <div class="border-top">
-                        <div class="accordion__title"><span class="progres brand-1st">Pólizas Vigentes <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon_more.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon_less.svg" alt="ver más"/></div>
+                        <div class="accordion__title"><span class="progres brand-1st">Pólizas Vigentes <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></span><img class="icon icon-plus accordion__title__icon" src="assets/icons/icon-arrow-bottom.svg" alt="ver más"/><img class="icon icon-minus accordion__title__icon accordion__title__icon--hide" src="assets/icons/icon-arrow-top.svg" alt="ver más"/></div>
                         <div class="accordion__content">
                           <table class="table tabla-simple">
                             <thead>
@@ -630,24 +622,31 @@
                             <tbody>
                               <tr>
                                 <td>331714</td>
-                                <th>Temporal Flexible</th>
+                                <td>Temporal Flexible</td>
                                 <td>La Interamericana - Vida</td>
                                 <td>Liquidada en Efectivo</td>
                                 <td>10096824-9 González Benavente María de los Angeles</td>
                               </tr>
                               <tr>
                                 <td>1311500004744</td>
-                                <th>Metlife Protección y Ahorro</th>
+                                <td>Metlife Protección y Ahorro</td>
                                 <td>Metlife Seguros de Vida S.A. - Individual</td>
                                 <td>Vigente</td>
                                 <td>500011249-8  De Servicio al Cliente Unidad</td>
+                              </tr>
+                              <tr>
+                                <td>331714</td>
+                                <td>Temporal Flexible</td>
+                                <td>La Interamericana - Vida</td>
+                                <td>Liquidada en Efectivo</td>
+                                <td>10096824-9 González Benavente María de los Angeles</td>
                               </tr>
                             </tbody>
                           </table>
                         </div>
                       </div>
                     </div><br/><br/>
-                    <div class="btn-area-double center"> <a class="btn-blue_outline" href="#">GRABAR</a><a class="btn-blue" href="perfil-inversionista.html">IR A PERFIL INVERSIONISTA</a></div>
+                    <div class="btn-area-double center"> <a class="btn-blue" href="perfil-inversionista.html">IR A PERFIL INVERSIONISTA</a></div>
                   </div>
                   <div class="cliente-movil hide-lg hide-md">
                     <div class="stepwizard">
@@ -664,25 +663,43 @@
                           </div>
                           <div class="panel-body">
                             <div class="info-required"><span>Información obligatoria *</span></div>
-                            <div class="iptrut-area required">
-                              <input class="input-number input-rut step1_rut rut" id="rut3" type="text" name="" placeholder="RUT" onkeyup="puntitos(this,this.value.charAt(this.value.length-1))"/><span>-</span>
-                              <input class="input-dv step1_dv dv" type="text" name=""/>
+                            <div class="input-group">
+                              <div class="has-float-label iptrut-area required">
+                                <input class="input-number input-rut step1_rut rut input-rut" id="rut3-mo" type="text" name="" placeholder="*" onkeyup="puntitos(this,this.value.charAt(this.value.length-1))"/>
+                                <label for="rut3-mo">RUT</label>
+                                <p class="guion">-</p>
+                                <input class="input-dv dv" type="text" name=""/>
+                              </div>
                             </div>
-                            <div class="ipttxt-area required">
-                              <input class="step1_name" type="text" name="" placeholder="Nombre Completo"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area required">
+                                <input class="step1_name input-text input-text" id="ac-name-mo" type="text" placeholder="*"/>
+                                <label for="ac-name-mo">Nombre completo</label>
+                              </div>
                             </div>
-                            <div class="ipttxt-area required">
-                              <input class="step1_apellido" type="text" name="" placeholder="Apellidos"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area required">
+                                <input class="step1_apellido input-text" id="ac-lastname-mo" type="text" placeholder="*"/>
+                                <label for="ac-lastname-mo">Apellidos</label>
+                              </div>
+                            </div>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="step1_tel input-cel input-number" id="ac-cel-mo" type="tel" placeholder="*"/>
+                                <label for="ac-cel-mo">Celular (9 9XXX XXXXX)</label>
+                              </div>
                             </div>
                             <div class="ipttxt-area">
-                              <input class="input-cel input-number step1_tel" type="tel" name="" placeholder="Celular (9 9XXX XXXXX)"/>
-                            </div>
-                            <div class="ipttxt-area">
-                              <input class="step1_email" type="text" name="" placeholder="Email"/>
+                              <div class="input-group">
+                                <div class="has-float-label ipttxt-area">
+                                  <input class="step1_email" id="ac-email-mo" type="text" placeholder="*"/>
+                                  <label for="ac-email-mo">Email</label>
+                                </div>
+                              </div>
                             </div>
                           </div>
                           <div class="panel-heading">
-                            <h3 class="panel-title">Datos básicos</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
+                            <h3 class="panel-title">Datos Básicos</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
                           </div>
                           <div class="panel-body">
                             <div class="rbtn-group rbtn-group__gender">
@@ -717,19 +734,24 @@
                                 <option value="1">opcion1</option>
                               </select>
                             </div>
-                            <div class="ipttxt-area required">
-                              <input type="text" name="" placeholder="Ocupación"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area required">
+                                <input class="input-text" id="ac-ocupacion-mo" type="text" placeholder="*"/>
+                                <label for="ac-ocupacion-mo">Ocupación</label>
+                              </div>
                             </div>
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Profesión"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-text" id="ac-profesion-mo" type="text" placeholder="*"/>
+                                <label for="ac-profesion-mo">Profesión</label>
+                              </div>
                             </div>
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Hobbies"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-text" id="ac-hobbies-mo" type="text" placeholder="*"/>
+                                <label for="ac-hobbies-mo">Hobbies</label>
+                              </div>
                             </div>
-                            <div class="panel-heading">
-                              <h3 class="panel-title">Remuneraciones</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
-                            </div>
-                            <div class="info-required"><span>Información obligatoria *</span></div>
                             <div class="rbtn-group rbtn-group__remuneraciones">
                               <p class="item-wizard-label">¿Fumas?</p>
                               <div class="row">
@@ -798,9 +820,7 @@
                               <input type="text" placeholder="¿En qué institución?"/>
                             </div>
                           </div><br/><br/>
-                          <div class="btn-area-double center"> <a class="btn-blue_outline" href="#">GRABAR</a>
-                            <button class="cli-mo-step1 btn-blue nextBtn" type="button">SIGUIENTE</button>
-                          </div>
+                          <div class="btn-area center"> <a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a><a class="cli-mo-step1 btn-blue nextBtn" type="button">SIGUIENTE</a></div>
                         </div>
                         <div class="panel panel-primary setup-content" id="step-3">
                           <div class="panel-heading">
@@ -810,11 +830,11 @@
                           </div>
                           <div class="panel-body">
                             <div class="info-required"><span>Información obligatoria *</span></div>
-                            <div class="ipttxt-area">
-                              <input class="input-cel input-number" type="tel" name="" placeholder="Teléfono (2 2XXX XXXX)"/>
-                            </div>
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Email"/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-cel input-number" id="ac-cel-2-mo" type="tel" placeholder="*"/>
+                                <label for="ac-cel-2-mo">Teléfono (2 2XXX XXXX)</label>
+                              </div>
                             </div>
                             <div class="iptselect-area">
                               <select name="">
@@ -827,9 +847,6 @@
                                 <option value="1">opcion1</option>
                               </select>
                             </div>
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Dirección"/>
-                            </div>
                             <div class="iptselect-area">
                               <select name="">
                                 <option value="1">Comuna</option>
@@ -841,44 +858,58 @@
                                 <option value="1">opcion1   </option>
                               </select>
                             </div>
-                            <div class="iptnum-area required required__label">
-                              <p class="item-wizard-label"> Ingreso mensual líquido</p><span>$</span>
-                              <input class="input-number" type="text" name=""/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input id="ac-direccion-mo" type="text" placeholder=""/>
+                                <label for="ac-direccion-mo">Dirección</label>
+                              </div>
                             </div>
-                            <div class="iptnum-area">
-                              <p class="item-wizard-label"> Ingreso mensual del cónyuge</p><span>$</span>
-                              <input class="input-number" type="text" name=""/>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input id="ac-email-mo" type="text" placeholder=""/>
+                                <label for="ac-email-mo">Email</label>
+                              </div>
                             </div>
-                            <div class="iptnum-area">
-                              <p class="item-wizard-label"> Gasto mensual familiar</p><span>$</span>
-                              <input class="input-number" type="text" name=""/>
+                          </div>
+                          <div class="panel-heading">
+                            <h3 class="panel-title">Remuneraciones</h3>
+                            <div class="input-group">
+                              <div class="has-float-label iptnum-area required required__label"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                <input class="input-number" id="ac-i3-mo" type="text" placeholder="*"/>
+                                <label class="input-rem" for="ac-i3-mo">Ingreso mensual líquido</label>
+                              </div>
+                            </div>
+                            <div class="input-group">
+                              <div class="has-float-label iptnum-area required required__label"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                <input class="input-number" id="ac-i4-mo" type="text" placeholder="*"/>
+                                <label class="input-rem" for="ac-i4-mo">Ingreso mensual del cónyuge</label>
+                              </div>
+                            </div>
+                            <h3 class="panel-title">Gasto Mensual</h3>
+                            <div class="input-group">
+                              <div class="has-float-label iptnum-area required required__label"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                <input class="input-number" id="ac-i5-mo" type="text" placeholder="*"/>
+                                <label class="input-rem" for="ac-i5-mo">Gasto mensual familiar</label>
+                              </div>
                             </div>
                           </div><br/><br/>
-                          <div class="btn-area-double center"> <a class="btn-blue_outline" href="#">GRABAR</a>
-                            <button class="cli-mo-step3 btn-blue nextBtn" type="button" disable="disable">SIGUIENTE</button>
-                          </div>
+                          <div class="btn-area center"> <a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a><a class="cli-mo-step3 btn-blue nextBtn" type="button" disable="disable">SIGUIENTE</a></div>
                         </div>
                         <div class="panel panel-primary setup-content" id="step-4">
                           <div class="panel-heading">
                             <div class="panel-heading">
-                              <h3 class="panel-title">Dependiente</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
+                              <h3 class="panel-title">Dependientes</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
                             </div>
                           </div>
                           <div class="panel-body">
-                            <div class="iptrut-area">
-                              <input class="input-number input-rut rut" type="text" name="" placeholder="RUT" onkeyup="puntitos(this,this.value.charAt(this.value.length-1))"/><span>-</span>
-                              <input class="input-dv dv" type="text" name=""/>
+                            <div class="info-required"><span>Información obligatoria *</span></div>
+                            <div class="input-group">
+                              <div class="has-float-label ipttxt-area">
+                                <input class="input-text" id="ac-d-name-mo" type="text" placeholder=""/>
+                                <label for="ac-d-name-mo">Nombre completo</label>
+                              </div>
                             </div>
-                            <div class="iptdate-area">
-                              <p class="label-area">Fecha de Nacimiento</p>
-                              <input class="input-number input-dia date-input" type="text" name="" placeholder="DD"/><span>-</span>
-                              <input class="input-number input-mes date-input" type="text" name="" placeholder="MM"/><span>-</span>
-                              <input class="input-number input-anno date-input__anno" type="text" name="" placeholder="AAAA"/>
-                            </div>
-                            <div class="ipttxt-area">
-                              <input type="text" name="" placeholder="Nombre Completo"/>
-                            </div>
-                            <div class="iptselect-area">
+                            <div class="iptselect-area_relacion">
                               <select name="">
                                 <option value="1">Relación</option>
                                 <option value="1">opcion1</option>
@@ -889,17 +920,35 @@
                                 <option value="1">opcion1</option>
                               </select>
                             </div>
-                            <div class="link-area"><a href="#"><img src="assets/icons/icon-add.svg" alt=""/>
-                                <p>Agregar dependiente</p></a></div><br/><br/>
-                            <div class="btn-area-double center"> <a class="btn-blue_outline" href="#">GRABAR</a>
-                              <button class="cli-mo-step4 btn-blue nextBtn" type="button" disable="disable">SIGUIENTE</button>
+                            <div class="input-group">
+                              <div class="has-float-label iptrut-area required iptselect-area-alter">
+                                <input class="rut input-rut" id="rut4" type="text" name="" placeholder=""/>
+                                <label for="rut4">RUT</label>
+                                <p class="guion">-</p>
+                                <input class="input-dv dv" type="text" name=""/>
+                              </div>
                             </div>
+                            <div class="iptdate-area">
+                              <p class="label-area">Fecha de Nacimiento</p>
+                              <input class="input-number input-dia date-input" type="text" name="" placeholder="DD"/><span>-</span>
+                              <input class="input-number input-mes date-input" type="text" name="" placeholder="MM"/><span>-</span>
+                              <input class="input-number input-anno date-input__anno" type="text" name="" placeholder="AAAA"/>
+                              <div class="drop-dependiente"><img src="assets/icons/icon-trash-blue.svg"/></div>
+                            </div>
+                          </div>
+                          <div class="new-dependiente-mo"></div>
+                          <div class="row accordion-row">
+                            <div class="container-fluid">
+                              <div class="link-area"><a id="btclon-mo" href="javascript:void(0)"><img src="assets/icons/icon-add.svg" alt=""/>
+                                  <p>Agregar dependiente</p></a></div>
+                            </div><br/><br/>
+                            <div class="btn-area center"> <a class="btn-blue_outline" href="javascript:void(0)">GRABAR</a><a class="cli-mo-step4 btn-blue nextBtn" type="button" disable="disable">SIGUIENTE</a></div>
                           </div>
                         </div>
                         <div class="panel panel-primary setup-content" id="step-5">
                           <div class="panel-heading">
                             <div class="panel-heading">
-                              <h3 class="panel-title">Pólizas vigentes</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
+                              <h3 class="panel-title">Pólizas Vigentes</h3><a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a>
                             </div>
                           </div>
                           <div class="panel-body">
@@ -922,9 +971,7 @@
                               </div>
                             </div>
                           </div><br/><br/>
-                          <div class="btn-area-double center"> <a class="btn-blue_outline" href="#">GRABAR</a>
-                            <button class="cli-mo-step5 btn-blue" href="#" disable="disable">VER RESULTADO</button>
-                          </div>
+                          <div class="btn-area center"> <a class="btn-blue" href="perfil-inversionista.html">IR A PERFIL INVERSIONISTA</a></div>
                         </div>
                       </form>
                     </div>
@@ -1081,7 +1128,7 @@
                           <p>Distribuye la inversión en un 90% de renta variable y un 10% de renta fija de lo invertido en instrumentos de renta fija.</p><br/>
                           <p>El horizonte de inversión es de mediano a corto plazo.</p>
                         </div><br/><br/><br/><br/>
-                        <div class="btn-area center center"><a class="btn-blue" href="#"><span class="hide-sm">INGRESAR A UN </span>MUNDO<span class="hide-lg hide-md">S</span>    </a></div>
+                        <div class="btn-area center center"><a class="btn-blue" href="javascript:void(0)"><span class="hide-sm">INGRESAR A UN </span>MUNDO<span class="hide-lg hide-md">S</span>    </a></div>
                       </div>
                     </div>
                   </div>
@@ -1093,15 +1140,28 @@
       </div>
     </div>
     <footer>
-      <div class="wrap-container footer-brand">
-        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/></div>
-        <div class="footer-social">
-          <p>Síguenos</p><img src="assets/icons/icon-facebook.svg" alt=""/><img src="assets/icons/icon-twitter.svg" alt=""/>
+      <div class="wrap-container footer-brand hide-md hide-lg">
+        <div class="footer-img">
+          <div class="row">
+            <div class="col-9"><img src="assets/imgs/logo-footer.png" alt=""/></div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+        <div class="footer-number-mo">
+          <p>600 390 3000</p>
+        </div>
+        <div class="footer-legal">
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. </p>
+          <p>Desde teléfonos celulares o desde el extranjero al </p>
+          <p><span>+56 2 2826 47 90</span></p>
         </div>
       </div>
-      <div class="footer-legal">
-        <div class="wrap-container">
-          <p>Agustinas 640, Santiago, Chile    Compañías MetLife</p>
+      <div class="wrap-container footer-brand hide-sm">
+        <div class="footer-logo"><img src="assets/imgs/logo-footer.png" alt=""/>
+          <p>2018 Metlife Chile, Agustinas 640, Santiago, Chile. Desde eléfonos celulares o desde el extranjero al <span>+56 2 2826 47 90</span></p>
+        </div>
+        <div class="footer-number">
+          <p>600 390 3000</p>
         </div>
       </div>
     </footer>

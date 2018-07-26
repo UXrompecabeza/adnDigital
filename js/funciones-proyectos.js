@@ -1,10 +1,23 @@
 $(document).ready(function () {
     agregarDependiente();
+    flujoProyecto();
 });
 
 $(".link-cobertura").click(function () {
     $(".cobertura-box").toggleClass("hide");
+    $(".icon-menos").toggleClass("hide");
+    $(".icon-mas").toggleClass("hide");
 });
+
+function flujoProyecto() {
+    $(".verProyecto").click(function () {
+        $("#tablaProyecto").toggleClass("hide-sm");
+        $(".icon-mas").toggleClass("hide");
+        $(".icon-menos").toggleClass("hide");
+        $(".mostrar").toggleClass("hide");
+        $(".ocultar").toggleClass("hide");
+    });
+}
 
 function agregarDependiente() {
     var nombre = "";
@@ -23,7 +36,12 @@ function agregarDependiente() {
 
         $('.tabla-desgloce table tbody').append(campo);
         $('ul.tabs-proyectos').append(campo2);
-        $(".tab-tablas_content").append(campo3);
+        // $(".tab-tablas_content").append(campo3);
         
     });
 }
+
+//SOLO NUMEROS
+$('.input-number').on('input', function () {
+    this.value = this.value.replace(/[^0-9]/g, '');
+});
