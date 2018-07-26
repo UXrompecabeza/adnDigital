@@ -88,28 +88,13 @@ $('.input-cel').attr('maxLength', '9').keypress(limitMe);
 $('.input-mes').attr('maxLength', '2').keypress(limitMe);
 $('.input-dia').attr('maxLength', '2').keypress(limitMe);
 $('.input-anno').attr('maxLength', '4').keypress(limitMe);
-$('.input-rut').attr('maxLength', '8').keypress(limitMe);
+$('.input-rut').attr('maxLength', '10').keypress(limitMe);
 $('.input-dv').attr('maxLength', '1').keypress(limitMe);
 
 
 //SOLO NUMEROS
 $('.input-number').on('input', function () {
     this.value = this.value.replace(/[^0-9]/g, '');
-});
-
-$('.input-rut').on('input', function () {
-    this.value = this.value.replace(/[^0-9]/g, '');
-});
-$("#testId").keyup(function () {
-
-    var vals = $("#testId").val();
-
-    if (/^[0-9]*(\.|,)?[0-9]*$/g.test(vals))
-        $("#testId").val(vals);
-    else
-        vals = vals.replace(/.$/, "");
-
-    $("#testId").val(vals);
 });
 
 //SOLO LETRAS
@@ -128,17 +113,19 @@ $(".rbtn-complementario-desk input").on('keyup keydown keypress change paste', f
 
 // VALIDACIONES
 
-$(".rut").keyup(function (event) {
-    // Tecla "delete" inhabita función
-    if (event.which != 8) {
-        if ($(this).val().length == 4) {
-            $(this).val($(this).val() + ".");
-        }
-        if ($(this).val().length == 5) {
-            $(this).val($(this).val() + "/");
-        }
-    }
+// Puntos al rut
+
+function formatNumber (n) {
+    n = String(n).replace(/\D/g, "");
+    return n === '' ? n : Number(n).toLocaleString("es-CL");
+}
+$(".addDot").on('input', function (e) {
+    let element = e.target;
+    let value = element.value;
+    element.value = formatNumber(value);
 });
+
+
 
 
 

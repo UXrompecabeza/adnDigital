@@ -173,8 +173,8 @@ table {
     margin-left: -1%;
   }
   .btn-area-double button, .btn-area-double a {
-    width: 100% !important;
-    margin: 0 auto 1em !important;
+    margin: 0 auto 2em !important;
+    width: 65%;
   }
   .btn-area-double-top button, .btn-area-double-top a {
     width: 100% !important;
@@ -188,9 +188,6 @@ table {
   }
   .iptrut-area .rut {
     width: 77.3% !important;
-  }
-  .iptrut-area .dv {
-    width: 14.4% !important;
   }
   .input-group {
     display: table;
@@ -395,6 +392,12 @@ table {
   .home-container .info-cliente-encontrado .detalles svg {
     margin: .2em 0 0 1em !important;
   }
+  .home-container .welcome-info_left .input-group {
+    width: 100% !important;
+  }
+  .home-container .welcome-info_left .input-group input:placeholder-shown + label {
+    margin-top: 0 !important;
+  }
   .tabla-calculo {
     font-size: 12px !important;
   }
@@ -559,7 +562,7 @@ table {
     margin: .2em 0 0 1em !important;
   }
   .dv {
-    width: 16% !important;
+    width: 17.4% !important;
   }
   .iptnum-area input {
     padding: 0 1em 0 1.4em !important;
@@ -608,7 +611,7 @@ table {
     padding: 1em 0 !important;
   }
   .dv {
-    width: 16% !important;
+    width: 16.9% !important;
   }
 }
 
@@ -1822,6 +1825,145 @@ footer .footer-brand .footer-number p {
   font-weight: 600;
 }
 
+.home-container .welcome-info .input-group, .home-container .welcome-info_left .input-group {
+  display: table;
+  width: 61%;
+  margin: 0 auto 1em;
+}
+
+.home-container .welcome-info .input-group > .has-float-label, .home-container .welcome-info_left .input-group > .has-float-label {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.home-container .welcome-info .input-group .required:before, .home-container .welcome-info_left .input-group .required:before {
+  top: +16px !important;
+}
+
+.home-container .welcome-info .input-group img, .home-container .welcome-info_left .input-group img {
+  position: absolute;
+  z-index: 2;
+  top: 13px;
+}
+
+.home-container .welcome-info .input-group .input-rem, .home-container .welcome-info_left .input-group .input-rem {
+  left: 19px !important;
+}
+
+.home-container .welcome-info .input-group input, .home-container .welcome-info_left .input-group input {
+  font-size: 13px;
+  border: 1px solid #CCCCCC;
+  border-radius: 2px;
+  height: 34px;
+  color: #333333;
+  padding: 0 .7em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 15px;
+  margin-bottom: .5em !important;
+}
+
+.home-container .welcome-info .input-group input:focus, .home-container .welcome-info_left .input-group input:focus {
+  border: 1px solid #005DA5;
+  outline: none;
+}
+
+.home-container .welcome-info .input-group input::-webkit-input-placeholder, .home-container .welcome-info_left .input-group input::-webkit-input-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.home-container .welcome-info .input-group input:-ms-input-placeholder, .home-container .welcome-info_left .input-group input:-ms-input-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.home-container .welcome-info .input-group input::-ms-input-placeholder, .home-container .welcome-info_left .input-group input::-ms-input-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.home-container .welcome-info .input-group input::placeholder, .home-container .welcome-info_left .input-group input::placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.home-container .welcome-info .input-group input::-ms-expand, .home-container .welcome-info_left .input-group input::-ms-expand {
+  display: none;
+}
+
+.home-container .welcome-info .input-group input:disabled, .home-container .welcome-info_left .input-group input:disabled {
+  background: transparent !important;
+  border: none !important;
+}
+
+@media (max-width: 768px) {
+  .home-container .welcome-info .input-group input, .home-container .welcome-info_left .input-group input {
+    font-size: 16px !important;
+  }
+}
+
+.home-container .welcome-info .input-group input:focus + label, .home-container .welcome-info_left .input-group input:focus + label {
+  color: #4a4a4a;
+  font-size: 11px;
+  padding: 1.5px 6px;
+  z-index: 2;
+}
+
+.home-container .welcome-info .input-group input::-webkit-input-placeholder, .home-container .welcome-info_left .input-group input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  visibility: hidden;
+  color: transparent !important;
+}
+
+.home-container .welcome-info .input-group input:-ms-input-placeholder, .home-container .welcome-info_left .input-group input:-ms-input-placeholder {
+  /* IE 10+ */
+  visibility: hidden;
+  color: transparent !important;
+}
+
+.home-container .welcome-info .input-group input::-ms-input-placeholder, .home-container .welcome-info_left .input-group input::-ms-input-placeholder {
+  visibility: hidden;
+  color: transparent !important;
+}
+
+.home-container .welcome-info .input-group input::placeholder, .home-container .welcome-info_left .input-group input::placeholder {
+  visibility: hidden;
+  color: transparent !important;
+}
+
+.home-container .welcome-info .input-group input:not(:placeholder-shown) + label, .home-container .welcome-info_left .input-group input:not(:placeholder-shown) + label {
+  top: -7px;
+  color: #4a4a4a;
+  font-size: 11px;
+  padding: 1px 6px;
+  z-index: 2;
+}
+
+.home-container .welcome-info .input-group input:placeholder-shown + label, .home-container .welcome-info_left .input-group input:placeholder-shown + label {
+  top: 12px;
+  margin-top: 2px;
+}
+
+.home-container .welcome-info .input-group input:focus + label, .home-container .welcome-info_left .input-group input:focus + label {
+  top: -7px;
+}
+
+.home-container .welcome-info .input-group label, .home-container .welcome-info_left .input-group label {
+  -webkit-transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+  transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+  position: absolute;
+  color: #999;
+  padding: 7px 6px;
+  left: 3px;
+  z-index: 2;
+}
+
 .home-container .welcome-info_left {
   border-right: 1px solid #f2f2f2;
 }
@@ -2208,19 +2350,19 @@ footer .footer-brand .footer-number p {
 
 @media (max-width: 482px) {
   .dv {
-    width: 16.4% !important;
+    width: 14.9% !important;
   }
 }
 
 @media only screen and (min-width: 483px) and (max-width: 768px) {
   .dv {
-    width: 17% !important;
+    width: 15.7% !important;
   }
 }
 
 @media only screen and (min-width: 1023px) and (max-width: 1344px) {
   .dv {
-    width: 16% !important;
+    width: 17% !important;
   }
 }
 
@@ -4014,7 +4156,7 @@ a.active .box-perfiles::after {
 }
 
 .modal-tabla__yellow table tbody tr:nth-child(2) {
-  background-color: #F0FCFA;
+  background-color: #fffbe9;
 }
 
 .modal-tabla__notas .modal-content .modal-body .btn-area {
@@ -4459,6 +4601,10 @@ a.active .box-perfiles::after {
   padding-left: 44px;
   padding-right: 44px;
   width: 100%;
+}
+
+body {
+  font-family: Arial !important;
 }
 
 /* * * CUSTOM CLASS * * */

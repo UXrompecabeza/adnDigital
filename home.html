@@ -57,7 +57,14 @@
             <div class="row">
               <div class="col-12 col-md-6 center welcome-info_left">
                 <p class="titulo-principal">¿Tu cliente ya existe?</p>
-                <input type="text" placeholder="Ingresa Rut" id="input-rut-home"/>
+                <div class="input-group">
+                  <div class="has-float-label iptrut-area">
+                    <input class="rut input-rut addDot" id="rut1" type="text" name="" placeholder="*"/>
+                    <label for="rut1">RUT</label>
+                    <p class="guion">-</p>
+                    <input class="input-dv dv" type="text" name=""/>
+                  </div>
+                </div>
                 <div class="btn-area"><a class="btn-blue_outline" href="javascript:void(0)" id="buscarRut">BUSCAR</a></div>
               </div>
               <div class="col-12 col-md-6 center welcome-info">
@@ -441,10 +448,25 @@
                         <div class="deglose-mundo bgs-purple">
                           <div class="row">
                             <div class="col-4 col-sm-5">
+                              <h4>Total final Grandes Proyectos</h4>
+                            </div>
+                            <div class="col-4 col-sm-3 no-padding">
+                              <h5>UF <span>535</span></h5>
+                            </div>
+                            <div class="col-4 col-sm-4 no-padding">
+                              <h6>$ 14.500.000</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion__content" style="display: block;">
+                        <div class="deglose-mundo bgs-purple">
+                          <div class="row">
+                            <div class="col-4 col-sm-5">
                               <h4>Ahorro mensual</h4>
                             </div>
                             <div class="col-4 col-sm-3 no-padding">
-                              <h5>UF <span>3.500</span></h5>
+                              <h5>UF <span>35</span></h5>
                             </div>
                             <div class="col-4 col-sm-4 no-padding">
                               <h6>$ 40.569.901</h6>
@@ -644,7 +666,7 @@
         <div class="modal-content">
           <h5>Actualizar datos del ADN</h5>
           <h6>Ten en cuenta que...</h6>
-          <div class="btn-area center-double center btn-area-double"> <a class="btn-blue_outline" href="#" data-dismiss="modal">CANCELAR</a><a class="btn-perfil-desk_step1 btn-blue" href="antecedentes-clientes.html" disable="disable">CONTINUAR</a></div>
+          <div class="btn-area btn-area-double center-double center"><a class="btn-blue_outline" href="#" data-dismiss="modal">CANCELAR</a><a class="btn-perfil-desk_step1 btn-blue" href="antecedentes-clientes.html" disable="disable">CONTINUAR</a></div>
         </div>
       </div>
     </div>
@@ -678,9 +700,7 @@
     <script src="js/libs/bootstrap.min.js"></script>
     <script src="js/libs/selectize.js"></script>
     <script src="js/libs/selectize.min.js"></script>
-    <script src="js/libs/owl.carousel.js"></script>
-    <script src="js/libs/progress_tracker.js"></script>
-    <script src="js/libs/step-form-wizard.js"></script>
+    <script src="js/libs/jquery.rut.chileno.js"></script>
     <script src="js/libs/acordeon.js"></script>
     <script src="js/funciones-home.js"></script>
   </body>
