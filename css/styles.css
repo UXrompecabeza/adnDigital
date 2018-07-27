@@ -339,6 +339,9 @@ table {
   .home-container .busqueda_vacia p {
     padding: 0 1em !important;
   }
+  .home-container .iptrut-area .input-rut {
+    width: 76.3% !important;
+  }
   .home-container .busqueda_resultados {
     padding: 1em 0 !important;
   }
@@ -1827,7 +1830,7 @@ footer .footer-brand .footer-number p {
 
 .home-container .welcome-info .input-group, .home-container .welcome-info_left .input-group {
   display: table;
-  width: 61%;
+  width: 79%;
   margin: 0 auto 1em;
 }
 
@@ -4558,7 +4561,7 @@ a.active .box-perfiles::after {
 }
 
 .input-group input:not(:placeholder-shown) + label {
-  top: -7px;
+  top: -5px;
   color: #4a4a4a;
   font-size: 11px;
   padding: 1px 6px;
@@ -4570,7 +4573,7 @@ a.active .box-perfiles::after {
 }
 
 .input-group input:focus + label {
-  top: -7px;
+  top: -5px;
 }
 
 .input-group label {
