@@ -3,9 +3,9 @@ $(document).ready(function () {
 });
 
 function flujoJubilacion() {
-    $(".btn-jubilacion").click(function () {
-        $(".table-jub").removeClass("hide");
-    });
+    // $(".btn-jubilacion").click(function () {
+    //     $(".table-jub").removeClass("hide");
+    // });
 
     $(".btn-jubilacion-mo").click(function () {
         $(".table-jub-mo").removeClass("hide");
