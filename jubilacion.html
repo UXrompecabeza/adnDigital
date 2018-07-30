@@ -505,94 +505,90 @@
                           <div class="tabla2 table-jub hide">
                             <h3 class="tab-tablas-title">Otros cálculos</h3>
                             <h4 class="tab-tablas-title_subtitle">Edición de datos para el cálculo</h4>
-                            <div class="tab-tablas_content">
-                              <div class="tab-content tab-pane fade show active" id="dep1" role="tabpanel">
-                                <div class="tab-dash_nav">
-                                  <table class="table tabla-calculo">
-                                    <tbody>
-                                      <tr>
-                                        <th scope="row" width="5%"> </th>
-                                        <td width="50%">Total Saldo Acumulado</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"> <img src="assets/icons/icon-multiply-red.svg" alt=""/></th>
-                                        <td width="50%">Factor 1</td>
-                                        <td width="40%"> 
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr class="color-row-only">
-                                        <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
-                                        <td width="50%">(3) Total Saldo Acumulado Valor Futuro</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"> </th>
-                                        <td width="50%"> <span>Cotización obligatoria Mensual </span><span class="txt-grey">(10% Remun. imponible con tope UF 75.7)</span></td>
-                                        <td width="40%">   
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"><img src="assets/icons/icon-multiply-red.svg" alt=""/></th>
-                                        <td width="50%">Factor 2</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr class="color-row-only">
-                                        <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
-                                        <td width="50%">(4) Cotización Obligatoria Valor Futuro</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"> </th>
-                                        <td width="50%">Ahorro Proyectado Total</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"><img src="assets/icons/icon-divide-red.svg" alt=""/></th>
-                                        <td width="50%">Factor 3</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr class="color-row-only">
-                                        <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
-                                        <td width="50%">(5) Jubilación Poryectada Mensual</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
+                            <div class="tab-tablas red-theme">
+                              <div class="tab-tablas_content">
+                                <div class="tab-content tab-pane fade show active" id="dep1" role="tabpanel">
+                                  <div class="tab-dash_nav">
+                                    <table class="table tabla-calculo">
+                                      <tbody>
+                                        <tr>
+                                          <td width="50%">Jubilación deseada</td>
+                                          <td width="50%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="btn-area"><a class="btn-blue btn-jub-show-tabla" href="javascript:void(0)">CALCULAR</a></div>
+                            <div class="tab-tablas red-theme hide tab-result-jub-mo">
+                              <div class="tab-tablas_content">
+                                <div class="tab-content tab-pane fade show active" id="dep1" role="tabpanel">
+                                  <div class="tab-dash_nav">
+                                    <table class="table tabla-calculo">
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row" width="5%"> </th>
+                                          <td width="50%">Jubilación deseada</td>
+                                          <td width="40%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" disabled="disabled"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row" width="5%"> <img src="assets/icons/icon-less-red.svg" alt=""/></th>
+                                          <td width="50%">(5) Jubilación proyectada mensual</td>
+                                          <td width="40%"> 
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" disabled="disabled"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr class="color-row-only">
+                                          <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
+                                          <td width="50%">Déficit mensual</td>
+                                          <td width="40%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" disabled="disabled"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row" width="5%"><img src="assets/icons/icon-multiply-red.svg" alt=""/></th>
+                                          <td width="50%">Factor 3</td>
+                                          <td width="40%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" disabled="disabled"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr class="color-row-only">
+                                          <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
+                                          <td width="50%">Capital necesario</td>
+                                          <td width="40%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" disabled="disabled"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row" width="5%"><img src="assets/icons/icon-divide-red.svg" alt=""/></th>
+                                          <td width="50%">Factor 2</td>
+                                          <td width="40%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" disabled="disabled"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -642,8 +638,8 @@
                                       <tbody>
                                         <tr>
                                           <th scope="row" width="5%"> </th>
-                                          <td width="50%">Ingreso mensual líquido</td>
-                                          <td width="40%">
+                                          <td class="table-col_left">Ingreso mensual líquido</td>
+                                          <td class="table-col_right">
                                             <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                               <input class="input-number" type="text" value="0"/>
                                             </div>
@@ -651,8 +647,8 @@
                                         </tr>
                                         <tr>
                                           <th scope="row" width="5%"> </th>
-                                          <td width="50%">Edad de Pensión</td>
-                                          <td width="40%"> 
+                                          <td class="table-col_left">Edad de Pensión</td>
+                                          <td class="table-col_right"> 
                                             <div class="iptselect-area">
                                               <select name="">
                                                 <option value="1">60 años</option>
@@ -668,8 +664,8 @@
                                         </tr>
                                         <tr>
                                           <th scope="row" width="5%"> </th>
-                                          <td width="50%">Saldo de Cuenta AFP</td>
-                                          <td width="40%">
+                                          <td class="table-col_left">Saldo de Cuenta AFP</td>
+                                          <td class="table-col_right">
                                             <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                               <input class="input-number" type="text" value="0"/>
                                             </div>
@@ -677,8 +673,8 @@
                                         </tr>
                                         <tr>
                                           <th scope="row" width="5%"> <img src="assets/icons/icon-add-red.svg" alt=""/></th>
-                                          <td width="50%">Depósito Convenido</td>
-                                          <td width="40%">
+                                          <td class="table-col_left">Depósito Convenido</td>
+                                          <td class="table-col_right">
                                             <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                               <input class="input-number" type="text" value="0"/>
                                             </div>
@@ -686,8 +682,8 @@
                                         </tr>
                                         <tr>
                                           <th scope="row" width="5%"><img src="assets/icons/icon-add-red.svg" alt=""/></th>
-                                          <td width="50%">Saldo de Cuenta 2 - AFP</td>
-                                          <td width="40%">   
+                                          <td class="table-col_left">Saldo de Cuenta 2 - AFP</td>
+                                          <td class="table-col_right">   
                                             <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                               <input class="input-number" type="text" value="0"/>
                                             </div>
@@ -695,10 +691,23 @@
                                         </tr>
                                         <tr>
                                           <th scope="row" width="5%"><img src="assets/icons/icon-add-red.svg" alt=""/></th>
-                                          <td width="50%">Saldo APV</td>
-                                          <td width="40%">
+                                          <td class="table-col_left">Saldo APV</td>
+                                          <td class="table-col_right">
                                             <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                               <input class="input-number" type="text" value="0"/>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class="table tabla-calculo_total">
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row" width="5%"> <img src="assets/icons/icon-same-red.svg" alt=""/></th>
+                                          <td width="40%">Total Saldo Acumulado</td>
+                                          <td width="45%">
+                                            <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
+                                              <input class="input-number" type="text" value="44.900.339" disabled="disabled"/>
                                             </div>
                                           </td>
                                         </tr>
@@ -716,7 +725,7 @@
                                     <h2>3a</h2>
                                   </div>
                                 </div>
-                                <div class="btn-area"><a class="btn-jubilacion-mo btn-blue" href="javascript:void(0)">CALCULAR</a></div>
+                                <div class="btn-area"><a class="btn-jubilacion-mo btn-blue" href="javascript:void(0)">RECALCULAR</a></div>
                               </div>
                             </div>
                             <div class="link-area link-cobertura hide-md hide-lg"><a href="javascript:void(0)"><img class="icon-mas" src="assets/icons/icon-arrow-bottom.svg"/><img class="icon-menos hide" src="assets/icons/icon-arrow-top.svg"/>
@@ -784,7 +793,7 @@
                               <div class="tab-tablas_content">
                                 <div class="tab-content tab-pane fade show active" id="dep1" role="tabpanel">
                                   <div class="tab-dash_nav">
-                                    <table class="table table-striped tabla-calculo">
+                                    <table class="table tabla-calculo">
                                       <tbody>
                                         <tr>
                                           <td width="50%">Jubilación deseada</td>
@@ -801,9 +810,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="btn-area"><a class="btn-blue" href="javascript:void(0)">CALCULAR</a></div>
-                          <div class="link-area center hide-lg hide-md jub-show-tabla btn-jub-show-tabla"><a class="verEducacion" href="javascript:void(0)"><img class="icon-mas" src="assets/icons/icon-arrow-bottom.svg" alt=""/><img class="icon-menos hide" src="assets/icons/icon-arrow-top.svg" alt=""/>
-                              <p><span class="mostrar">Ver</span><span class="ocultar hide">Ocultar</span> cálculos</p></a></div>
+                          <div class="btn-area"><a class="btn-blue btn-jub-show-tabla" href="javascript:void(0)">CALCULAR</a></div>
                           <div class="tab-tablas red-theme hide tab-result-jub-mo">
                             <div class="tab-tablas_content">
                               <div class="tab-content tab-pane fade show active" id="dep1" role="tabpanel">
@@ -812,17 +819,17 @@
                                     <tbody>
                                       <tr>
                                         <th scope="row" width="5%"> </th>
-                                        <td width="50%">Total Saldo Acumulado</td>
-                                        <td width="40%">
+                                        <td class="table-col_left">Jubilación deseada</td>
+                                        <td class="table-col_right">
                                           <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                             <input class="input-number" type="text" disabled="disabled"/>
                                           </div>
                                         </td>
                                       </tr>
                                       <tr>
-                                        <th scope="row" width="5%"> <img src="assets/icons/icon-multiply-red.svg" alt=""/></th>
-                                        <td width="50%">Factor 1</td>
-                                        <td width="40%"> 
+                                        <th scope="row" width="5%"> <img src="assets/icons/icon-less-red.svg" alt=""/></th>
+                                        <td class="table-col_left">(5) Jubilación proyectada mensual</td>
+                                        <td class="table-col_right"> 
                                           <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                             <input class="input-number" type="text" disabled="disabled"/>
                                           </div>
@@ -830,17 +837,8 @@
                                       </tr>
                                       <tr class="color-row-only">
                                         <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
-                                        <td width="50%">(3) Total Saldo Acumulado Valor Futuro</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"> </th>
-                                        <td width="50%"> <span>Cotización obligatoria mensual </span><span class="txt-grey">(10% Remun. imponible con tope UF 75.7)</span></td>
-                                        <td width="40%">   
+                                        <td class="table-col_left">Déficit mensual</td>
+                                        <td class="table-col_right">
                                           <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                             <input class="input-number" type="text" disabled="disabled"/>
                                           </div>
@@ -848,8 +846,8 @@
                                       </tr>
                                       <tr>
                                         <th scope="row" width="5%"><img src="assets/icons/icon-multiply-red.svg" alt=""/></th>
-                                        <td width="50%">Factor 2</td>
-                                        <td width="40%">
+                                        <td class="table-col_left">Factor 3</td>
+                                        <td class="table-col_right">
                                           <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                             <input class="input-number" type="text" disabled="disabled"/>
                                           </div>
@@ -857,17 +855,8 @@
                                       </tr>
                                       <tr class="color-row-only">
                                         <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
-                                        <td width="50%">(4) Cotización obligatoria Valor Futuro</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" width="5%"> </th>
-                                        <td width="50%">Ahorro Proyectado Total</td>
-                                        <td width="40%">
+                                        <td class="table-col_left">Capital necesario</td>
+                                        <td class="table-col_right">
                                           <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                             <input class="input-number" type="text" disabled="disabled"/>
                                           </div>
@@ -875,17 +864,8 @@
                                       </tr>
                                       <tr>
                                         <th scope="row" width="5%"><img src="assets/icons/icon-divide-red.svg" alt=""/></th>
-                                        <td width="50%">Factor 3</td>
-                                        <td width="40%">
-                                          <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
-                                            <input class="input-number" type="text" disabled="disabled"/>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                      <tr class="color-row-only">
-                                        <th scope="row" width="5%"><img src="assets/icons/icon-same-red.svg" alt=""/></th>
-                                        <td width="50%">(5) Jubilación Proyectada Mensual</td>
-                                        <td width="40%">
+                                        <td class="table-col_left">Factor 2</td>
+                                        <td class="table-col_right">
                                           <div class="iptnum-area"><img src="assets/icons/icon-pesos.svg" alt=""/>
                                             <input class="input-number" type="text" disabled="disabled"/>
                                           </div>

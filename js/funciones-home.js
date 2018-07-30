@@ -1,17 +1,6 @@
-
-//SELECTIZE
-
-// $('#input-rut-home').selectize({
-//   plugins: ['remove_button'],
-//   delimiter: ',',
-//   persist: false,
-//   create: function(input) {
-//       return {
-//           value: input,
-//           text: input
-//       }
-//   }
-// });
+$(document).ready(function () {
+  msieversion();
+});
 
 $(".cliente1").click(function() {
   $("#home-info").hide();
@@ -49,3 +38,26 @@ function limitMe(e) {
 }
 $('.input-rut').attr('maxLength', '10').keypress(limitMe);
 $('.input-dv').attr('maxLength', '1').keypress(limitMe);
+
+
+//HACK IE
+function msieversion() {
+
+  var input = $(".has-float-label input");
+  var label = $(".has-float-label label");
+  var ua = window.navigator.userAgent;
+  var msie = ua.indexOf("MSIE ");
+
+  if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+  {
+      //LABEL FLOATING
+      label.addClass("label-ie");
+      input.on('keyup keydown keypress change paste', function () {
+          if ($(this).val() != "") {
+              $(this).next().addClass("label-float-ie");
+          } else {
+              $(this).next().removeClass("label-float-ie");
+          }
+      });
+  }
+}
