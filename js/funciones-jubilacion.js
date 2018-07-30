@@ -14,8 +14,8 @@ function flujoJubilacion() {
 
     $(".btn-jub-show-tabla").click(function () {
         $(".tab-result-jub-mo").toggleClass("hide");
-        $(".icon-mas").toggleClass("hide");
-        $(".icon-menos").toggleClass("hide");
+        // $(".icon-mas").toggleClass("hide");
+        // $(".icon-menos").toggleClass("hide");
         $(".mostrar").toggleClass("hide");
         $(".ocultar").toggleClass("hide");
     });

@@ -186,6 +186,9 @@ table {
   .iptdate-area .date-input {
     width: 53px !important;
   }
+  .iptnum-area input {
+    padding: 0 .5em 0 1.4em !important;
+  }
   .iptrut-area .rut {
     width: 77.3% !important;
   }
@@ -339,6 +342,9 @@ table {
   .home-container .busqueda_vacia p {
     padding: 0 1em !important;
   }
+  .home-container .iptrut-area .input-rut {
+    width: 76.3% !important;
+  }
   .home-container .busqueda_resultados {
     padding: 1em 0 !important;
   }
@@ -406,6 +412,15 @@ table {
   }
   .tabla-calculo input, .tabla-calculo select {
     margin-bottom: 0 !important;
+  }
+  .tabla-calculo .table-col_left {
+    width: 40% !important;
+  }
+  .tabla-calculo .table-col_right {
+    width: 50% !important;
+  }
+  .width-mo {
+    width: 90% !important;
   }
   .link-area {
     width: 100%;
@@ -1034,6 +1049,22 @@ table {
     font-size: 20px;
     line-height: 24px;
   }
+}
+
+.right {
+  text-align: right;
+}
+
+.accordion__notas p {
+  margin: 0;
+}
+
+.accordion__notas .grey-text {
+  color: #767676;
+}
+
+.accordion__notas img {
+  width: 15px !important;
 }
 
 header {
@@ -1827,7 +1858,7 @@ footer .footer-brand .footer-number p {
 
 .home-container .welcome-info .input-group, .home-container .welcome-info_left .input-group {
   display: table;
-  width: 61%;
+  width: 79%;
   margin: 0 auto 1em;
 }
 
@@ -1923,7 +1954,6 @@ footer .footer-brand .footer-number p {
 
 .home-container .welcome-info .input-group input:-ms-input-placeholder, .home-container .welcome-info_left .input-group input:-ms-input-placeholder {
   /* IE 10+ */
-  visibility: hidden;
   color: transparent !important;
 }
 
@@ -2627,7 +2657,7 @@ footer .footer-brand .footer-number p {
   position: relative;
   color: #666666;
   width: 100%;
-  padding: 0 1em 0 1.4em !important;
+  padding: 0 1em 0 1.4em;
 }
 
 .iptnum-area input:focus {
@@ -3074,6 +3104,14 @@ textarea {
   height: 34px;
 }
 
+.tabla-calculo tbody tr .table-col_left {
+  width: 50%;
+}
+
+.tabla-calculo tbody tr .table-col_right {
+  width: 40%;
+}
+
 .tabla-calculo_total {
   border: 2px solid #D3F4F2;
   border-radius: 10px !important;
@@ -3341,6 +3379,10 @@ a.active .box-perfiles::after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.rbtn-complementario-desk {
+  display: inline-block;
 }
 
 .box-result {
@@ -4027,7 +4069,7 @@ a.active .box-perfiles::after {
 }
 
 .modal-tabla .modal-content .modal-body img {
-  width: 100% !important;
+  width: 100%;
 }
 
 .modal-tabla .modal-content .modal-body textarea {
@@ -4541,8 +4583,16 @@ a.active .box-perfiles::after {
   color: transparent !important;
 }
 
+.input-group input::-ms-clear {
+  display: none;
+}
+
 .input-group input:-ms-input-placeholder {
   /* IE 10+ */
+  color: transparent !important;
+}
+
+.input-group input::-webkit-input-placeholder {
   visibility: hidden;
   color: transparent !important;
 }
@@ -4558,7 +4608,7 @@ a.active .box-perfiles::after {
 }
 
 .input-group input:not(:placeholder-shown) + label {
-  top: -7px;
+  top: -5px;
   color: #4a4a4a;
   font-size: 11px;
   padding: 1px 6px;
@@ -4570,7 +4620,7 @@ a.active .box-perfiles::after {
 }
 
 .input-group input:focus + label {
-  top: -7px;
+  top: -5px !important;
 }
 
 .input-group label {
@@ -4581,6 +4631,18 @@ a.active .box-perfiles::after {
   padding: 7px 6px;
   left: 3px;
   z-index: 2;
+}
+
+.label-float-ie {
+  top: -5px !important;
+  color: #4a4a4a !important;
+  font-size: 11px !important;
+  padding: 1px 6px !important;
+  z-index: 2 !important;
+}
+
+.label-ie {
+  top: 14px;
 }
 
 .main-container {

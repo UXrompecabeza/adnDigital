@@ -1,3 +1,8 @@
+$(document).ready(function () {
+    msieversion();
+});
+
+
 //CARRUSEL
 $('.carrusel-perfil').owlCarousel({
     loop:false,
@@ -40,6 +45,29 @@ function botonNotas() {
 jQuery(document).ready(function(){
     jQuery('.datepicker2').datepicker();
 });
+
+
+//HACK IE
+function msieversion() {
+
+    var input = $(".has-float-label input");
+    var label = $(".has-float-label label");
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+    {
+        //LABEL FLOATING
+        label.addClass("label-ie");
+        input.on('keyup keydown keypress change paste', function () {
+            if ($(this).val() != "") {
+                $(this).next().addClass("label-float-ie");
+            } else {
+                $(this).next().removeClass("label-float-ie");
+            }
+        });
+    }
+}
 
 
 
