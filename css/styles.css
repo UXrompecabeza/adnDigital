@@ -187,7 +187,7 @@ table {
     width: 53px !important;
   }
   .iptnum-area input {
-    padding: 0 .5em 0 1.4em !important;
+    padding: 0 1em 0 1.4em !important;
   }
   .iptrut-area .rut {
     width: 77.3% !important;
@@ -210,7 +210,7 @@ table {
     border-radius: 2px;
     height: 34px;
     color: #333333;
-    padding: 0 .7em;
+    padding: 0 1.5em 0 .3em;
     -webkit-appearance: none;
     -moz-appearance: none;
     position: relative;
@@ -246,6 +246,10 @@ table {
   .input-group input:disabled {
     background: transparent !important;
     border: none !important;
+    color: #666666;
+    -webkit-text-fill-color: #666666;
+    -webkit-opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -304,7 +308,10 @@ table {
     z-index: 2;
   }
   .cliente-movil select {
-    margin-bottom: 1.5em !important;
+    margin-bottom: .5em !important;
+  }
+  .iptselect-area_relacion {
+    width: 100% !important;
   }
   .box-result {
     width: 100% !important;
@@ -405,7 +412,7 @@ table {
     margin-top: 0 !important;
   }
   .tabla-calculo {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   .tabla-calculo td {
     padding: 10px !important;
@@ -1888,7 +1895,7 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   position: relative;
@@ -1931,6 +1938,10 @@ footer .footer-brand .footer-number p {
 .home-container .welcome-info .input-group input:disabled, .home-container .welcome-info_left .input-group input:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2412,7 +2423,7 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   width: 74.3%;
@@ -2451,6 +2462,10 @@ footer .footer-brand .footer-number p {
 .iptrut-area .rut:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2465,7 +2480,7 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   width: 18%;
@@ -2504,6 +2519,10 @@ footer .footer-brand .footer-number p {
 .iptrut-area .dv:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2515,6 +2534,15 @@ footer .footer-brand .footer-number p {
 .iptrut-area .guion {
   color: #CCCCCC !important;
   width: 5% !important;
+  text-align: center;
+  display: inline-block;
+  position: relative !important;
+  bottom: 0 !important;
+}
+
+.iptrut-area .guion_copy {
+  color: #CCCCCC !important;
+  width: 7.7% !important;
   text-align: center;
   display: inline-block;
   position: relative !important;
@@ -2537,10 +2565,11 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   text-align: center;
+  padding-right: .5em;
 }
 
 .iptdate-area input:focus {
@@ -2575,6 +2604,10 @@ footer .footer-brand .footer-number p {
 .iptdate-area input:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2594,6 +2627,10 @@ footer .footer-brand .footer-number p {
 .iptdate-area span {
   color: #CCCCCC;
   margin-left: .2em;
+}
+
+.iptdate-area .span-guion {
+  margin-right: .3em;
 }
 
 .iptgender-area p.label-area {
@@ -2650,7 +2687,7 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   text-align: right;
@@ -2692,6 +2729,10 @@ footer .footer-brand .footer-number p {
 .iptnum-area input:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2712,7 +2753,7 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   width: 100%;
@@ -2750,6 +2791,10 @@ footer .footer-brand .footer-number p {
 .ipttxt-area input:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2774,7 +2819,7 @@ footer .footer-brand .footer-number p {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   width: 100%;
@@ -2822,6 +2867,10 @@ footer .footer-brand .footer-number p {
 .iptselect-area select:disabled, .iptselect-area_relacion select:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -2845,7 +2894,7 @@ footer .footer-brand .footer-number p {
 }
 
 .new-dependiente .required::before {
-  right: 17px;
+  right: 10px;
 }
 
 .new-dependiente .col-lg-5 {
@@ -2857,7 +2906,11 @@ footer .footer-brand .footer-number p {
 }
 
 .new-dependiente-mo .required::before {
-  right: 17px;
+  right: 10px;
+}
+
+.new-dependiente-mo .drop-dependiente {
+  padding-left: 1.2em;
 }
 
 textarea {
@@ -2875,7 +2928,7 @@ textarea {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
@@ -2918,6 +2971,10 @@ textarea {
 .datepicker-area input:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -3611,6 +3668,7 @@ a.active .box-perfiles::after {
   font-size: 12px;
   display: block;
   color: #999999;
+  padding-top: .2em;
 }
 
 .tab-tablas .tab-icon-check {
@@ -3939,7 +3997,7 @@ a.active .box-perfiles::after {
   color: #000;
   display: inline-block;
   margin-right: .7em;
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 
 .stepwizard .panel-primary button {
@@ -4519,7 +4577,7 @@ a.active .box-perfiles::after {
   border-radius: 2px;
   height: 34px;
   color: #333333;
-  padding: 0 .7em;
+  padding: 0 1.5em 0 .3em;
   -webkit-appearance: none;
   -moz-appearance: none;
   position: relative;
@@ -4562,6 +4620,10 @@ a.active .box-perfiles::after {
 .input-group input:disabled {
   background: transparent !important;
   border: none !important;
+  color: #666666;
+  -webkit-text-fill-color: #666666;
+  -webkit-opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -4722,6 +4784,16 @@ body {
 
 .bg-purple {
   background-color: #420586;
+}
+
+.fake-br {
+  height: 1.5em;
+  width: 100%;
+}
+
+.fake-br_sm {
+  height: 1em;
+  width: 100%;
 }
 
 /* * * INFORMACION OBLIGATORIA * * */
