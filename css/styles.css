@@ -4130,6 +4130,10 @@ a.active .box-perfiles::after {
   width: 100%;
 }
 
+.modal-tabla .modal-content .modal-body .img_big {
+  width: 100% !important;
+}
+
 .modal-tabla .modal-content .modal-body textarea {
   height: 10em;
 }
@@ -4171,12 +4175,12 @@ a.active .box-perfiles::after {
 }
 
 .modal-tabla .modal-content .modal-body table tbody tr td:nth-child(1) {
-  width: 40%;
+  width: 15%;
   border-right: 1px solid #cecccf;
 }
 
 .modal-tabla .modal-content .modal-body table tbody tr td:nth-child(2) {
-  width: 20%;
+  width: 45%;
   border-right: 1px solid #cecccf;
 }
 
@@ -4585,7 +4589,7 @@ a.active .box-perfiles::after {
   left: 0;
   z-index: 1;
   margin-top: 1em;
-  margin-bottom: .5em !important;
+  margin-bottom: .7em !important;
 }
 
 .input-group input:focus {
@@ -4670,7 +4674,7 @@ a.active .box-perfiles::after {
 }
 
 .input-group input:not(:placeholder-shown) + label {
-  top: -5px;
+  top: -7px;
   color: #4a4a4a;
   font-size: 11px;
   padding: 1px 6px;
@@ -4682,7 +4686,7 @@ a.active .box-perfiles::after {
 }
 
 .input-group input:focus + label {
-  top: -5px !important;
+  top: -7px;
 }
 
 .input-group label {
