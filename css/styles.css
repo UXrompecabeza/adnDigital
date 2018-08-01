@@ -1979,7 +1979,7 @@ footer .footer-brand .footer-number p {
 }
 
 .home-container .welcome-info .input-group input:not(:placeholder-shown) + label, .home-container .welcome-info_left .input-group input:not(:placeholder-shown) + label {
-  top: -7px;
+  top: -6px;
   color: #4a4a4a;
   font-size: 11px;
   padding: 1px 6px;
@@ -1988,11 +1988,10 @@ footer .footer-brand .footer-number p {
 
 .home-container .welcome-info .input-group input:placeholder-shown + label, .home-container .welcome-info_left .input-group input:placeholder-shown + label {
   top: 12px;
-  margin-top: 2px;
 }
 
 .home-container .welcome-info .input-group input:focus + label, .home-container .welcome-info_left .input-group input:focus + label {
-  top: -7px;
+  top: -3px;
 }
 
 .home-container .welcome-info .input-group label, .home-container .welcome-info_left .input-group label {
