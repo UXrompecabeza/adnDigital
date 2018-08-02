@@ -95,7 +95,8 @@
               <div class="dashboard-nav bg-green dashboard-nav__icon">
                 <div class="dash-nav-icon"><img src="assets/icons/icon-saludproteccion.svg" alt=""/></div>
                 <h2>Protección y Salud</h2>
-                <div class="dashboard-modal brand-arrow_green"><a type="button" data-toggle="modal" data-target="#modalTablaProteccion">
+                <div class="dashboard-modal brand-arrow_green">
+                  <button type="button" data-toggle="modal" data-target="#modalTablaProteccion">
                     <svg width="15px" height="16px" viewbox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch-->
                       <title>ic_+</title>    
@@ -113,249 +114,227 @@
                           </g>
                         </g>
                       </g>
-                    </svg></a>
-                  <div class="modal-tabla modal-tabla__green modal fade" id="modalTablaProteccion" tabindex="-1" role="dialog" aria-labelledby="modalTablasLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Título Modal</h5>
-                          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                        </div>
-                        <div class="modal-body"><img class="img-fluid img_big" src="assets/imgs/example.png" alt=""/></div>
-                        <div class="modal-footer">
-                          <div class="btn-area">
-                            <button class="btn-blue" type="button" data-dismiss="modal">Cerrar</button>
-                          </div>
-                          <p class="txt-legal">FUENTE: clinicasantamaria.cl  |  alemana.cl  |  clinicalascondes.cl</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    </svg>
+                  </button>
                 </div>
               </div>
               <div class="dashboard-tab_content">
                 <div class="content">
-                  <div class="notas-container">
-                    <button class="btn-rounded" type="button" data-toggle="modal" data-target="#modalNotas"></button>
-                  </div>
-                  <div class="salud-desk hide-sm">
-                    <!-- Modal-->
-                    <div class="modal modal-tabla modal-tabla__notas fade" id="modalNotas" tabindex="-1" role="dialog" aria-labelledby="modalNotasLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header"><img class="icon-note" src="assets/icons/ic_notas.svg" alt=""/>
-                            <h5 class="modal-title" id="exampleModalLabel">Ingresar Notas</h5>
-                            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                  <div class="modal modal-tabla modal-tabla__notas fade" id="modalNotas" tabindex="-1" role="dialog" aria-labelledby="modalNotasLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header"><img class="icon-note" src="assets/icons/ic_notas.svg" alt=""/>
+                          <h5 class="modal-title" id="exampleModalLabel">Ingresar Notas</h5>
+                          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-12">
+                              <textarea name="" cols="30" rows="10" placeholder="Ingrese texto"></textarea>
+                            </div>
+                            <div class="col-12">
+                              <div class="btn-area">
+                                <button class="btn-blue" type="button">GRABAR</button>
+                              </div>
+                            </div>
                           </div>
-                          <div class="modal-body">
-                            <div class="row">
-                              <div class="col-12">
-                                <textarea name="" cols="30" rows="10" placeholder="Ingrese texto"></textarea>
-                              </div>
-                              <div class="col-12">
-                                <div class="btn-area">
-                                  <button class="btn-blue" type="button">GRABAR</button>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="container-fluid filtros-notas"><span>Ver todo</span>
-                                <div class="checkbox-area">
-                                  <label class="form-check-label" for="checkDepen1"> 
-                                    <input class="form-check-input" type="checkbox" name="cbxDep" id="checkDepen1" checked="checked"/><span class="checkmark"></span>
-                                  </label>
-                                </div><span>|</span><span>Ver por mes</span>
-                                <div class="iptselect-area">
-                                  <select name="">
-                                    <option value="1">Julio</option>
-                                    <option value="1">opcion1</option>
-                                    <option value="1">opcion1</option>
-                                    <option value="1">opcion1</option>
-                                    <option value="1">opcion1</option>
-                                    <option value="1">opcion1</option>
-                                    <option value="1">opcion1</option>
-                                  </select>
-                                </div>
+                          <div class="row">
+                            <div class="container-fluid filtros-notas"><span>Ver todo</span>
+                              <div class="checkbox-area">
+                                <label class="form-check-label" for="checkDepen1"> 
+                                  <input class="form-check-input" type="checkbox" name="cbxDep" id="checkDepen1" checked="checked"/><span class="checkmark"></span>
+                                </label>
+                              </div><span>|</span><span>Ver por mes</span>
+                              <div class="iptselect-area">
+                                <select name="">
+                                  <option value="1">Julio</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                  <option value="1">opcion1</option>
+                                </select>
                               </div>
                             </div>
-                            <div class="row">
-                              <div class="container-fluid">
-                                <div class="accordion accordion__notas" data-faq="most_common">
-                                  <div class="border-top accordion-item accordion-item__green">
-                                    <div class="accordion__title">
-                                      <div class="row">
-                                        <div class="col-8 col-sm-11"><span class="brand-1st">Protección y Salud</span></div>
-                                        <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 0</span></div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion__content">
-                                      <table class="table-notas">
-                                        <thead class="hide-sm">
-                                          <tr>
-                                            <th>Fecha</th>
-                                            <th>Nota</th>
-                                            <th>Asesor</th>
-                                            <th>GA</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody> 
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses y se quiere comprar un auto</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                          </div>
+                          <div class="row">
+                            <div class="container-fluid">
+                              <div class="accordion accordion__notas" data-faq="most_common">
+                                <div class="border-top accordion-item accordion-item__green">
+                                  <div class="accordion__title">
+                                    <div class="row">
+                                      <div class="col-8 col-sm-11"><span class="brand-1st">Protección y Salud</span></div>
+                                      <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 0</span></div>
                                     </div>
                                   </div>
-                                  <div class="border-top accordion-item accordion-item__yellow">
-                                    <div class="accordion__title">
-                                      <div class="row">
-                                        <div class="col-8 col-sm-11"><span class="progres brand-1st">Educación</span></div>
-                                        <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 2</span></div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion__content">
-                                      <table class="table-notas">
-                                        <thead class="hide-sm">
-                                          <tr>
-                                            <th>Fecha</th>
-                                            <th>Nota</th>
-                                            <th>Asesor</th>
-                                            <th>GA</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody> 
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead class="hide-sm">
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses y se quiere comprar un auto</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__yellow">
+                                  <div class="accordion__title">
+                                    <div class="row">
+                                      <div class="col-8 col-sm-11"><span class="progres brand-1st">Educación</span></div>
+                                      <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 2</span></div>
                                     </div>
                                   </div>
-                                  <div class="border-top accordion-item accordion-item__purple">
-                                    <div class="accordion__title">
-                                      <div class="row">
-                                        <div class="col-8 col-sm-11"><span class="progres brand-1st">Grandes Proyectos</span></div>
-                                        <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 2</span></div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion__content">
-                                      <table class="table-notas">
-                                        <thead class="hide-sm">
-                                          <tr>
-                                            <th>Fecha</th>
-                                            <th>Nota</th>
-                                            <th>Asesor</th>
-                                            <th>GA</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody> 
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead class="hide-sm">
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__purple">
+                                  <div class="accordion__title">
+                                    <div class="row">
+                                      <div class="col-8 col-sm-11"><span class="progres brand-1st">Grandes Proyectos</span></div>
+                                      <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 2</span></div>
                                     </div>
                                   </div>
-                                  <div class="border-top accordion-item accordion-item__red">
-                                    <div class="accordion__title">
-                                      <div class="row">
-                                        <div class="col-8 col-sm-11"><span class="progres brand-1st">Jubilación</span></div>
-                                        <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 0</span></div>
-                                      </div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead class="hide-sm">
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="border-top accordion-item accordion-item__red">
+                                  <div class="accordion__title">
+                                    <div class="row">
+                                      <div class="col-8 col-sm-11"><span class="progres brand-1st">Jubilación</span></div>
+                                      <div class="col-4 col-sm-1 no-padding right"><span class="note-number">Notas 0</span></div>
                                     </div>
-                                    <div class="accordion__content">
-                                      <table class="table-notas">
-                                        <thead class="hide-sm">
-                                          <tr>
-                                            <th>Fecha</th>
-                                            <th>Nota</th>
-                                            <th>Asesor</th>
-                                            <th>GA</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody> 
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                          <tr>
-                                            <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
-                                              <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
-                                              <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
-                                              <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
-                                            </td>
-                                            <td class="hide-sm">Va a tener un hijo en 6 meses</td>
-                                            <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
-                                            <td class="hide-sm">GA: Felipe Godoy</td>
-                                            <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </div>
+                                  </div>
+                                  <div class="accordion__content">
+                                    <table class="table-notas">
+                                      <thead class="hide-sm">
+                                        <tr>
+                                          <th>Fecha</th>
+                                          <th>Nota</th>
+                                          <th>Asesor</th>
+                                          <th>GA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody> 
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                        <tr>
+                                          <td class="width-mo"><span class="circle-item"> </span><span class="hide-sm">20/07/2017</span><span class="hide-md hide-lg grey-text">20/07/2017</span>
+                                            <p class="hide-md hide-lg">Va a tener un hijo en 6 meses</p>
+                                            <p class="hide-md hide-lg grey-text">Rodrigo Santiesteban</p>
+                                            <p class="hide-md hide-lg grey-text">Felipe Godoy</p>
+                                          </td>
+                                          <td class="hide-sm">Va a tener un hijo en 6 meses</td>
+                                          <td class="hide-sm">Asesor: Rodrigo Santiesteban</td>
+                                          <td class="hide-sm">GA: Felipe Godoy</td>
+                                          <td><img src="assets/icons/icon-trash.svg" alt=""/></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
                                   </div>
                                 </div>
                               </div>
@@ -364,6 +343,12 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div class="notas-container">
+                    <button class="btn-rounded" type="button" data-toggle="modal" data-target="#modalNotas"></button>
+                    <!-- Modal-->
+                  </div>
+                  <div class="salud-desk hide-sm">
                     <div class="row">
                       <div class="col-6">
                         <h2 class="dashboard-title">Capital de protección necesario <br> en caso de fallecimiento <a class="tooltips" href="#" data-tooltip="I’m the tooltip text"> <img src="assets/icons/icon-tooltip.svg" alt=""/></a></h2>
@@ -1042,6 +1027,23 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-tabla modal-tabla__green modal fade" id="modalTablaProteccion" tabindex="-1" role="dialog" aria-labelledby="modalTablasLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título Modal</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body"><img class="img-fluid img_big" src="assets/imgs/example.png" alt=""/></div>
+          <div class="modal-footer">
+            <div class="btn-area">
+              <button class="btn-blue" type="button" data-dismiss="modal">Cerrar</button>
+            </div>
+            <p class="txt-legal">FUENTE: clinicasantamaria.cl  |  alemana.cl  |  clinicalascondes.cl</p>
           </div>
         </div>
       </div>

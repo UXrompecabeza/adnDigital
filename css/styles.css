@@ -190,7 +190,7 @@ table {
     padding: 0 1em 0 1.4em !important;
   }
   .iptrut-area .rut {
-    width: 77.3% !important;
+    width: 77% !important;
   }
   .input-group {
     display: table;
@@ -410,6 +410,9 @@ table {
   }
   .home-container .welcome-info_left .input-group input:placeholder-shown + label {
     margin-top: 0 !important;
+  }
+  .home-modal button {
+    margin-top: 2px !important;
   }
   .tabla-calculo {
     font-size: 14px !important;
@@ -1467,10 +1470,13 @@ footer .footer-brand .footer-number p {
   border-right: 18px solid transparent;
 }
 
-.dashboard .dashboard-content .dashboard-tab .dashboard-nav .dashboard-modal a {
+.dashboard .dashboard-content .dashboard-tab .dashboard-nav .dashboard-modal button {
   position: absolute;
   top: -28px;
-  right: -7px;
+  left: -8px;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .dashboard .dashboard-content .dashboard-tab .dashboard-nav .brand-arrow_cliente {
@@ -1979,7 +1985,7 @@ footer .footer-brand .footer-number p {
 }
 
 .home-container .welcome-info .input-group input:not(:placeholder-shown) + label, .home-container .welcome-info_left .input-group input:not(:placeholder-shown) + label {
-  top: -7px;
+  top: -6px;
   color: #4a4a4a;
   font-size: 11px;
   padding: 1px 6px;
@@ -1988,11 +1994,10 @@ footer .footer-brand .footer-number p {
 
 .home-container .welcome-info .input-group input:placeholder-shown + label, .home-container .welcome-info_left .input-group input:placeholder-shown + label {
   top: 12px;
-  margin-top: 2px;
 }
 
 .home-container .welcome-info .input-group input:focus + label, .home-container .welcome-info_left .input-group input:focus + label {
-  top: -7px;
+  top: -3px;
 }
 
 .home-container .welcome-info .input-group label, .home-container .welcome-info_left .input-group label {
@@ -2154,6 +2159,15 @@ footer .footer-brand .footer-number p {
 
 .mundos-menu {
   padding: 1em 0;
+}
+
+.home-modal button {
+  background: transparent;
+  border: none;
+}
+
+.home-modal button:focus {
+  outline: 0;
 }
 
 #modalHome .modal-content {
@@ -3076,7 +3090,9 @@ textarea {
 }
 
 .input-institucion,
-.input-institucion-desk {
+.input-institucion-desk,
+.input-catastrofico,
+.input-catastrofico-desk {
   margin-top: 0.5em;
 }
 
@@ -3438,7 +3454,8 @@ a.active .box-perfiles::after {
   transform: scale(1);
 }
 
-.rbtn-complementario-desk {
+.rbtn-complementario-desk,
+.rbtn-catastrofico-desk {
   display: inline-block;
 }
 

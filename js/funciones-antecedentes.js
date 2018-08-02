@@ -136,6 +136,14 @@ $(".rbtn-complementario-desk input").on('keyup keydown keypress change paste', f
     $(".input-institucion-desk").removeClass("hide");
 });
 
+$(".rbtn-catastrofico input").on('keyup keydown keypress change paste', function () {
+    $(".input-catastrofico").removeClass("hide");
+});
+
+$(".rbtn-catastrofico-desk input").on('keyup keydown keypress change paste', function () {
+    $(".input-catastrofico-desk").removeClass("hide");
+});
+
 // VALIDACIONES
 
 // Puntos al rut y valores $

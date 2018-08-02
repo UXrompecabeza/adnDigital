@@ -7,9 +7,9 @@ function flujoJubilacion() {
         $(".table-jub").removeClass("hide");
     });
 
-    $(".btn-jubilacion-mo").click(function () {
-        $(".link-calculos").removeClass("hide-sm");
-    });
+    // $(".btn-jubilacion-mo").click(function () {
+    //     $(".link-calculos").removeClass("hide-sm");
+    // });
     $(".verJubilacion").click(function () {
         $(".icon-mas").toggleClass("hide");
         $(".icon-menos").toggleClass("hide");
