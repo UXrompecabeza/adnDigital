@@ -411,6 +411,9 @@ table {
   .home-container .welcome-info_left .input-group input:placeholder-shown + label {
     margin-top: 0 !important;
   }
+  .home-modal button {
+    margin-top: 2px !important;
+  }
   .tabla-calculo {
     font-size: 14px !important;
   }
@@ -640,6 +643,12 @@ table {
 @media only screen and (min-width: 1023px) and (max-width: 1117px) {
   .clientes {
     padding: 1.5em 1em 0 !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .dashboard .dashboard-modal button {
+    left: -24px !important;
   }
 }
 
@@ -1467,10 +1476,12 @@ footer .footer-brand .footer-number p {
   border-right: 18px solid transparent;
 }
 
-.dashboard .dashboard-content .dashboard-tab .dashboard-nav .dashboard-modal a {
+.dashboard .dashboard-content .dashboard-tab .dashboard-nav .dashboard-modal button {
   position: absolute;
   top: -28px;
-  right: -7px;
+  left: -14px;
+  background: transparent;
+  border: none;
 }
 
 .dashboard .dashboard-content .dashboard-tab .dashboard-nav .brand-arrow_cliente {
@@ -2153,6 +2164,15 @@ footer .footer-brand .footer-number p {
 
 .mundos-menu {
   padding: 1em 0;
+}
+
+.home-modal button {
+  background: transparent;
+  border: none;
+}
+
+.home-modal button:focus {
+  outline: 0;
 }
 
 #modalHome .modal-content {
@@ -3075,7 +3095,9 @@ textarea {
 }
 
 .input-institucion,
-.input-institucion-desk {
+.input-institucion-desk,
+.input-catastrofico,
+.input-catastrofico-desk {
   margin-top: 0.5em;
 }
 
@@ -3437,7 +3459,8 @@ a.active .box-perfiles::after {
   transform: scale(1);
 }
 
-.rbtn-complementario-desk {
+.rbtn-complementario-desk,
+.rbtn-catastrofico-desk {
   display: inline-block;
 }
 
