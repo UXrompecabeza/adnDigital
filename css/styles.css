@@ -646,6 +646,12 @@ table {
   }
 }
 
+@media (max-width: 375px) {
+  .dashboard .dashboard-modal button {
+    left: -24px !important;
+  }
+}
+
 .accordion .border-top {
   border-top: none !important;
 }
