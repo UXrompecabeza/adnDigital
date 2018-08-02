@@ -4,7 +4,11 @@ $(document).ready(function () {
 
 function flujoJubilacion() {
     $(".btn-jubilacion").click(function () {
-        $(".table-jub").removeClass("hide");
+        $(".table-jub").toggleClass("hide");
+        $(".icon-mas_desk").toggleClass("hide");
+        $(".icon-menos_desk").toggleClass("hide");
+        $(".mostrar_desk").toggleClass("hide");
+        $(".ocultar_desk").toggleClass("hide");
     });
 
     // $(".btn-jubilacion-mo").click(function () {
@@ -30,8 +34,8 @@ function flujoJubilacion() {
 
 $(".link-cobertura").click(function () {
     $(".cobertura-box").toggleClass("hide");
-    $(".icon-menos").toggleClass("hide");
-    $(".icon-mas").toggleClass("hide");
+    $(".icon-menos_cob").toggleClass("hide");
+    $(".icon-mas_cob").toggleClass("hide");
 });
 
 
